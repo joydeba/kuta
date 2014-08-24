@@ -959,6 +959,7 @@
             this.ClientSize = new System.Drawing.Size(1050, 441);
             this.Controls.Add(this.tabControl_main);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "Khulna University Teacher Association Election - 2014";
             this.tabPage_all.ResumeLayout(false);
