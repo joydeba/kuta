@@ -95,6 +95,7 @@
             this.checkBox_Ahsanuzzaman = new System.Windows.Forms.CheckBox();
             this.tabControl_main = new System.Windows.Forms.TabControl();
             this.button_clear = new System.Windows.Forms.Button();
+            this.button_count = new System.Windows.Forms.Button();
             this.tabPage_all.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_main)).BeginInit();
             this.tabControl_main.SuspendLayout();
@@ -102,6 +103,7 @@
             // 
             // tabPage_all
             // 
+            this.tabPage_all.Controls.Add(this.button_count);
             this.tabPage_all.Controls.Add(this.button_clear);
             this.tabPage_all.Controls.Add(this.pictureBox_main);
             this.tabPage_all.Controls.Add(this.button_export);
@@ -966,6 +968,16 @@
             this.button_clear.UseVisualStyleBackColor = true;
             this.button_clear.Click += new System.EventHandler(this.button_clear_Click);
             // 
+            // button_count
+            // 
+            this.button_count.Location = new System.Drawing.Point(151, 367);
+            this.button_count.Name = "button_count";
+            this.button_count.Size = new System.Drawing.Size(75, 23);
+            this.button_count.TabIndex = 68;
+            this.button_count.Text = "Count";
+            this.button_count.UseVisualStyleBackColor = true;
+            this.button_count.Click += new System.EventHandler(this.button_count_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1052,6 +1064,7 @@
         private System.Windows.Forms.Button button_export;
         private System.Windows.Forms.PictureBox pictureBox_main;
         private System.Windows.Forms.Button button_clear;
+        private System.Windows.Forms.Button button_count;
 
     }
 }

@@ -31,7 +31,7 @@ namespace KUTA
         Boolean save_pre_condition()
         {
             int count_all = 0,count_pres=0,count_vice_pres=0,count_gen_sec=0,count_joint_sec=0,count_tres=0,count_social=0,count_pub=0,count_mem=0;
-            CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            //CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
             CheckBox[] array_pres = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul };
             CheckBox[] array_vice_pres = new CheckBox[] { checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar };
             CheckBox[] array_gen_sec = new CheckBox[] { checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar };
@@ -40,6 +40,8 @@ namespace KUTA
             CheckBox[] array_social = new CheckBox[] {checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo};
             CheckBox[] array_pub = new CheckBox[] { checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul };
             CheckBox[] array_mem = new CheckBox[] { checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            
+            /*
             for (int i = 0; i < array_all.Length; i++)
             {
                 if(array_all[i].Checked == true)
@@ -47,6 +49,7 @@ namespace KUTA
                     count_all++;
                 }
             }
+            */
 
             for (int i = 0; i < array_pres.Length; i++)
             {
@@ -103,52 +106,61 @@ namespace KUTA
                     count_pub++;
                 }
             }
+            for (int i = 0; i < array_mem.Length; i++)
+            {
+                if (array_mem[i].Checked == true)
+                {
+                    count_mem++;
+                }
+            }
+            /*
             if (count_all != 13)
             {
                 MessageBox.Show("Select total 13 persons");
                 return false;
             }
-            else if(count_pres != 1)
+             */
+            if(count_pres != 1)
             {
-                MessageBox.Show("Select 1 person for President");
+                MessageBox.Show("Select 1 person for President Position");
                 return false;
             }
 
             else if (count_vice_pres != 1)
             {
-                MessageBox.Show("Select 1 person for Vice President");
+                MessageBox.Show("Select 1 person for Vice President Position");
                 return false;
             }
 
             else if (count_gen_sec != 1)
             {
-                MessageBox.Show("Select 1 person for General Secretary");
+                MessageBox.Show("Select 1 person for General Secretary Position");
                 return false;
             }
             else if (count_joint_sec != 1)
             {
-                MessageBox.Show("Select 1 person for Joint Secretary");
+                MessageBox.Show("Select 1 person for Joint Secretary Position");
                 return false;
             }
             else if (count_tres != 1)
             {
-                MessageBox.Show("Select 1 person for Tresurer");
+                MessageBox.Show("Select 1 person for Tresurer Position");
                 return false;
             }
             else if (count_social != 1)
             {
-                MessageBox.Show("Select 1 person for Social Welfare");
+                MessageBox.Show("Select 1 person for Social Welfare Position");
                 return false;
             }
             else if (count_pub != 1)
             {
-                MessageBox.Show("Select 1 person for Publication");
+                MessageBox.Show("Select 1 person for Publication Position");
                 return false;
             }
 
-            else if (count_pub != 1)
+            else if (count_mem != 6)
             {
-                MessageBox.Show("Select 6 persons for Member");
+                MessageBox.Show("Select 6 persons for Member Position");
                 return false;
             }
             else
@@ -156,7 +168,6 @@ namespace KUTA
                 return true;
             }
 
-            return false;
         }
  
         private void button_save_Click(object sender, EventArgs e)
@@ -374,12 +385,21 @@ namespace KUTA
                 if (return_res < 0)
                 {
 
+                    diSelectAll();
+                    show_count();
                     MessageBox.Show("deleted");
 
                 }
                 conn.Close();
                
             } 
+        }
+
+        private void button_count_Click(object sender, EventArgs e)
+        {
+            diSelectAll();
+            show_count();
+            MessageBox.Show("Done");
         }
 
 
