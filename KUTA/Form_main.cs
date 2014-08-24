@@ -8,11 +8,12 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace KUTA
 {
     public partial class FormMain : Form
     {
-        string connstr = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=C:\\Users\\joy\\Documents\\kuta.mdf;Integrated Security=True;Connect Timeout=30";
+        string connstr = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\kuta.mdf;Integrated Security=True;Connect Timeout=30";
 
 
 
@@ -27,6 +28,136 @@ namespace KUTA
 
         }
         
+        Boolean save_pre_condition()
+        {
+            int count_all = 0,count_pres=0,count_vice_pres=0,count_gen_sec=0,count_joint_sec=0,count_tres=0,count_social=0,count_pub=0,count_mem=0;
+            CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_pres = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul };
+            CheckBox[] array_vice_pres = new CheckBox[] { checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar };
+            CheckBox[] array_gen_sec = new CheckBox[] { checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar };
+            CheckBox[] array_joint_sec = new CheckBox[] { checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir };
+            CheckBox[] array_tres = new CheckBox[] { checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif };
+            CheckBox[] array_social = new CheckBox[] {checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo};
+            CheckBox[] array_pub = new CheckBox[] { checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul };
+            CheckBox[] array_mem = new CheckBox[] { checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            for (int i = 0; i < array_all.Length; i++)
+            {
+                if(array_all[i].Checked == true)
+                {
+                    count_all++;
+                }
+            }
+
+            for (int i = 0; i < array_pres.Length; i++)
+            {
+                if (array_pres[i].Checked == true)
+                {
+                    count_pres++;
+                }
+            }
+
+            for (int i = 0; i < array_vice_pres.Length; i++)
+            {
+                if (array_vice_pres[i].Checked == true)
+                {
+                    count_vice_pres++;
+                }
+            }
+
+            for (int i = 0; i < array_gen_sec.Length; i++)
+            {
+                if (array_gen_sec[i].Checked == true)
+                {
+                    count_gen_sec++;
+                }
+            }
+
+            for (int i = 0; i < array_joint_sec.Length; i++)
+            {
+                if (array_joint_sec[i].Checked == true)
+                {
+                    count_joint_sec++;
+                }
+            }
+
+            for (int i = 0; i < array_tres.Length; i++)
+            {
+                if (array_tres[i].Checked == true)
+                {
+                    count_tres++;
+                }
+            }
+
+            for (int i = 0; i < array_social.Length; i++)
+            {
+                if (array_social[i].Checked == true)
+                {
+                    count_social++;
+                }
+            }
+
+            for (int i = 0; i < array_pub.Length; i++)
+            {
+                if (array_pub[i].Checked == true)
+                {
+                    count_pub++;
+                }
+            }
+            if (count_all != 13)
+            {
+                MessageBox.Show("Select total 13 persons");
+                return false;
+            }
+            else if(count_pres != 1)
+            {
+                MessageBox.Show("Select 1 person for President");
+                return false;
+            }
+
+            else if (count_vice_pres != 1)
+            {
+                MessageBox.Show("Select 1 person for Vice President");
+                return false;
+            }
+
+            else if (count_gen_sec != 1)
+            {
+                MessageBox.Show("Select 1 person for General Secretary");
+                return false;
+            }
+            else if (count_joint_sec != 1)
+            {
+                MessageBox.Show("Select 1 person for Joint Secretary");
+                return false;
+            }
+            else if (count_tres != 1)
+            {
+                MessageBox.Show("Select 1 person for Tresurer");
+                return false;
+            }
+            else if (count_social != 1)
+            {
+                MessageBox.Show("Select 1 person for Social Welfare");
+                return false;
+            }
+            else if (count_pub != 1)
+            {
+                MessageBox.Show("Select 1 person for Publication");
+                return false;
+            }
+
+            else if (count_pub != 1)
+            {
+                MessageBox.Show("Select 6 persons for Member");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+            return false;
+        }
  
         private void button_save_Click(object sender, EventArgs e)
         {
@@ -44,7 +175,7 @@ namespace KUTA
 
             conn.Open();
             int return_res = cmd.ExecuteNonQuery();
-            if (return_res > 0)
+            if (return_res > 0 && save_pre_condition())
             {
                 
                 MessageBox.Show("Data saved successfully ");
@@ -215,6 +346,40 @@ namespace KUTA
         private void checkBox_shafiqur_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_export_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button_clear_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do you really want to delete all saved data ?", "Confirm deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                SqlConnection conn = new SqlConnection(connstr);
+                SqlCommand cmd = new SqlCommand();
+
+
+                cmd.CommandText = "TRUNCATE TABLE Table_kuta";
+
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.Connection = conn;
+
+
+                conn.Open();
+                int return_res = cmd.ExecuteNonQuery();
+                if (return_res < 0)
+                {
+
+                    MessageBox.Show("deleted");
+
+                }
+                conn.Close();
+               
+            } 
         }
 
 
