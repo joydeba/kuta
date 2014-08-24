@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.tabPage_all = new System.Windows.Forms.TabPage();
+            this.pictureBox_main = new System.Windows.Forms.PictureBox();
             this.button_export = new System.Windows.Forms.Button();
             this.button_save = new System.Windows.Forms.Button();
             this.label_PublicationSec = new System.Windows.Forms.Label();
@@ -93,15 +94,14 @@
             this.checkBox_matin = new System.Windows.Forms.CheckBox();
             this.checkBox_Ahsanuzzaman = new System.Windows.Forms.CheckBox();
             this.tabControl_main = new System.Windows.Forms.TabControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage_all.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_main)).BeginInit();
             this.tabControl_main.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage_all
             // 
-            this.tabPage_all.Controls.Add(this.pictureBox1);
+            this.tabPage_all.Controls.Add(this.pictureBox_main);
             this.tabPage_all.Controls.Add(this.button_export);
             this.tabPage_all.Controls.Add(this.button_save);
             this.tabPage_all.Controls.Add(this.label_PublicationSec);
@@ -167,14 +167,23 @@
             this.tabPage_all.Location = new System.Drawing.Point(4, 22);
             this.tabPage_all.Name = "tabPage_all";
             this.tabPage_all.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_all.Size = new System.Drawing.Size(1043, 415);
+            this.tabPage_all.Size = new System.Drawing.Size(1127, 491);
             this.tabPage_all.TabIndex = 0;
             this.tabPage_all.Text = "All";
             this.tabPage_all.UseVisualStyleBackColor = true;
             // 
+            // pictureBox_main
+            // 
+            this.pictureBox_main.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_main.Image")));
+            this.pictureBox_main.Location = new System.Drawing.Point(950, 0);
+            this.pictureBox_main.Name = "pictureBox_main";
+            this.pictureBox_main.Size = new System.Drawing.Size(171, 306);
+            this.pictureBox_main.TabIndex = 66;
+            this.pictureBox_main.TabStop = false;
+            // 
             // button_export
             // 
-            this.button_export.Location = new System.Drawing.Point(912, 368);
+            this.button_export.Location = new System.Drawing.Point(1006, 368);
             this.button_export.Name = "button_export";
             this.button_export.Size = new System.Drawing.Size(75, 23);
             this.button_export.TabIndex = 65;
@@ -183,7 +192,7 @@
             // 
             // button_save
             // 
-            this.button_save.Location = new System.Drawing.Point(817, 368);
+            this.button_save.Location = new System.Drawing.Point(872, 368);
             this.button_save.Name = "button_save";
             this.button_save.Size = new System.Drawing.Size(75, 23);
             this.button_save.TabIndex = 64;
@@ -262,7 +271,7 @@
             // 
             this.checkBox_Rubaiot.AutoSize = true;
             this.checkBox_Rubaiot.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Rubaiot.Location = new System.Drawing.Point(797, 298);
+            this.checkBox_Rubaiot.Location = new System.Drawing.Point(814, 298);
             this.checkBox_Rubaiot.Name = "checkBox_Rubaiot";
             this.checkBox_Rubaiot.Size = new System.Drawing.Size(70, 17);
             this.checkBox_Rubaiot.TabIndex = 57;
@@ -274,7 +283,7 @@
             // 
             this.checkBox_roziqul.AutoSize = true;
             this.checkBox_roziqul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_roziqul.Location = new System.Drawing.Point(797, 266);
+            this.checkBox_roziqul.Location = new System.Drawing.Point(814, 266);
             this.checkBox_roziqul.Name = "checkBox_roziqul";
             this.checkBox_roziqul.Size = new System.Drawing.Size(68, 17);
             this.checkBox_roziqul.TabIndex = 56;
@@ -286,7 +295,7 @@
             // 
             this.checkBox_sayeda.AutoSize = true;
             this.checkBox_sayeda.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_sayeda.Location = new System.Drawing.Point(797, 230);
+            this.checkBox_sayeda.Location = new System.Drawing.Point(814, 230);
             this.checkBox_sayeda.Name = "checkBox_sayeda";
             this.checkBox_sayeda.Size = new System.Drawing.Size(61, 17);
             this.checkBox_sayeda.TabIndex = 55;
@@ -298,7 +307,7 @@
             // 
             this.checkBox_salma.AutoSize = true;
             this.checkBox_salma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_salma.Location = new System.Drawing.Point(797, 197);
+            this.checkBox_salma.Location = new System.Drawing.Point(814, 197);
             this.checkBox_salma.Name = "checkBox_salma";
             this.checkBox_salma.Size = new System.Drawing.Size(60, 17);
             this.checkBox_salma.TabIndex = 54;
@@ -310,7 +319,7 @@
             // 
             this.checkBox_saikat.AutoSize = true;
             this.checkBox_saikat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_saikat.Location = new System.Drawing.Point(797, 162);
+            this.checkBox_saikat.Location = new System.Drawing.Point(814, 162);
             this.checkBox_saikat.Name = "checkBox_saikat";
             this.checkBox_saikat.Size = new System.Drawing.Size(62, 17);
             this.checkBox_saikat.TabIndex = 53;
@@ -322,7 +331,7 @@
             // 
             this.checkBox_rumana.AutoSize = true;
             this.checkBox_rumana.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rumana.Location = new System.Drawing.Point(797, 130);
+            this.checkBox_rumana.Location = new System.Drawing.Point(814, 130);
             this.checkBox_rumana.Name = "checkBox_rumana";
             this.checkBox_rumana.Size = new System.Drawing.Size(72, 17);
             this.checkBox_rumana.TabIndex = 52;
@@ -334,7 +343,7 @@
             // 
             this.checkBox_shajalal.AutoSize = true;
             this.checkBox_shajalal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_shajalal.Location = new System.Drawing.Point(797, 94);
+            this.checkBox_shajalal.Location = new System.Drawing.Point(814, 94);
             this.checkBox_shajalal.Name = "checkBox_shajalal";
             this.checkBox_shajalal.Size = new System.Drawing.Size(78, 17);
             this.checkBox_shajalal.TabIndex = 51;
@@ -346,7 +355,7 @@
             // 
             this.checkBox_rakib.AutoSize = true;
             this.checkBox_rakib.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rakib.Location = new System.Drawing.Point(797, 61);
+            this.checkBox_rakib.Location = new System.Drawing.Point(814, 61);
             this.checkBox_rakib.Name = "checkBox_rakib";
             this.checkBox_rakib.Size = new System.Drawing.Size(59, 17);
             this.checkBox_rakib.TabIndex = 50;
@@ -358,7 +367,7 @@
             // 
             this.checkBox_hosna_ara.AutoSize = true;
             this.checkBox_hosna_ara.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_hosna_ara.Location = new System.Drawing.Point(684, 298);
+            this.checkBox_hosna_ara.Location = new System.Drawing.Point(692, 298);
             this.checkBox_hosna_ara.Name = "checkBox_hosna_ara";
             this.checkBox_hosna_ara.Size = new System.Drawing.Size(85, 17);
             this.checkBox_hosna_ara.TabIndex = 49;
@@ -370,19 +379,20 @@
             // 
             this.checkBox_shafiqur.AutoSize = true;
             this.checkBox_shafiqur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_shafiqur.Location = new System.Drawing.Point(684, 266);
+            this.checkBox_shafiqur.Location = new System.Drawing.Point(692, 266);
             this.checkBox_shafiqur.Name = "checkBox_shafiqur";
             this.checkBox_shafiqur.Size = new System.Drawing.Size(73, 17);
             this.checkBox_shafiqur.TabIndex = 48;
             this.checkBox_shafiqur.Text = "Shafiqur";
             this.checkBox_shafiqur.UseVisualStyleBackColor = true;
+            this.checkBox_shafiqur.CheckedChanged += new System.EventHandler(this.checkBox_shafiqur_CheckedChanged);
             this.checkBox_shafiqur.Click += new System.EventHandler(this.on_member);
             // 
             // checkBox_nazrul_mem
             // 
             this.checkBox_nazrul_mem.AutoSize = true;
             this.checkBox_nazrul_mem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_nazrul_mem.Location = new System.Drawing.Point(684, 230);
+            this.checkBox_nazrul_mem.Location = new System.Drawing.Point(692, 230);
             this.checkBox_nazrul_mem.Name = "checkBox_nazrul_mem";
             this.checkBox_nazrul_mem.Size = new System.Drawing.Size(62, 17);
             this.checkBox_nazrul_mem.TabIndex = 47;
@@ -395,7 +405,7 @@
             // 
             this.checkBox_mostafa.AutoSize = true;
             this.checkBox_mostafa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mostafa.Location = new System.Drawing.Point(684, 197);
+            this.checkBox_mostafa.Location = new System.Drawing.Point(692, 197);
             this.checkBox_mostafa.Name = "checkBox_mostafa";
             this.checkBox_mostafa.Size = new System.Drawing.Size(71, 17);
             this.checkBox_mostafa.TabIndex = 46;
@@ -407,7 +417,7 @@
             // 
             this.checkBox_hefzur.AutoSize = true;
             this.checkBox_hefzur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_hefzur.Location = new System.Drawing.Point(684, 162);
+            this.checkBox_hefzur.Location = new System.Drawing.Point(692, 162);
             this.checkBox_hefzur.Name = "checkBox_hefzur";
             this.checkBox_hefzur.Size = new System.Drawing.Size(63, 17);
             this.checkBox_hefzur.TabIndex = 45;
@@ -419,7 +429,7 @@
             // 
             this.checkBox_rejaul.AutoSize = true;
             this.checkBox_rejaul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rejaul.Location = new System.Drawing.Point(684, 130);
+            this.checkBox_rejaul.Location = new System.Drawing.Point(692, 130);
             this.checkBox_rejaul.Name = "checkBox_rejaul";
             this.checkBox_rejaul.Size = new System.Drawing.Size(62, 17);
             this.checkBox_rejaul.TabIndex = 44;
@@ -431,7 +441,7 @@
             // 
             this.checkBox_Raihan.AutoSize = true;
             this.checkBox_Raihan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Raihan.Location = new System.Drawing.Point(684, 94);
+            this.checkBox_Raihan.Location = new System.Drawing.Point(692, 94);
             this.checkBox_Raihan.Name = "checkBox_Raihan";
             this.checkBox_Raihan.Size = new System.Drawing.Size(66, 17);
             this.checkBox_Raihan.TabIndex = 43;
@@ -443,7 +453,7 @@
             // 
             this.checkBox_Nazmus.AutoSize = true;
             this.checkBox_Nazmus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Nazmus.Location = new System.Drawing.Point(684, 61);
+            this.checkBox_Nazmus.Location = new System.Drawing.Point(692, 61);
             this.checkBox_Nazmus.Name = "checkBox_Nazmus";
             this.checkBox_Nazmus.Size = new System.Drawing.Size(70, 17);
             this.checkBox_Nazmus.TabIndex = 42;
@@ -456,7 +466,7 @@
             // 
             this.checkBox_mizanur.AutoSize = true;
             this.checkBox_mizanur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mizanur.Location = new System.Drawing.Point(565, 298);
+            this.checkBox_mizanur.Location = new System.Drawing.Point(556, 298);
             this.checkBox_mizanur.Name = "checkBox_mizanur";
             this.checkBox_mizanur.Size = new System.Drawing.Size(70, 17);
             this.checkBox_mizanur.TabIndex = 41;
@@ -468,7 +478,7 @@
             // 
             this.checkBox_Maniruzzaman.AutoSize = true;
             this.checkBox_Maniruzzaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Maniruzzaman.Location = new System.Drawing.Point(565, 266);
+            this.checkBox_Maniruzzaman.Location = new System.Drawing.Point(556, 266);
             this.checkBox_Maniruzzaman.Name = "checkBox_Maniruzzaman";
             this.checkBox_Maniruzzaman.Size = new System.Drawing.Size(106, 17);
             this.checkBox_Maniruzzaman.TabIndex = 40;
@@ -480,7 +490,7 @@
             // 
             this.checkBox_howlader.AutoSize = true;
             this.checkBox_howlader.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_howlader.Location = new System.Drawing.Point(565, 230);
+            this.checkBox_howlader.Location = new System.Drawing.Point(556, 230);
             this.checkBox_howlader.Name = "checkBox_howlader";
             this.checkBox_howlader.Size = new System.Drawing.Size(79, 17);
             this.checkBox_howlader.TabIndex = 39;
@@ -493,7 +503,7 @@
             // 
             this.checkBox_firoz.AutoSize = true;
             this.checkBox_firoz.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_firoz.Location = new System.Drawing.Point(565, 197);
+            this.checkBox_firoz.Location = new System.Drawing.Point(556, 197);
             this.checkBox_firoz.Name = "checkBox_firoz";
             this.checkBox_firoz.Size = new System.Drawing.Size(53, 17);
             this.checkBox_firoz.TabIndex = 38;
@@ -505,7 +515,7 @@
             // 
             this.checkBox_anisuzzaman.AutoSize = true;
             this.checkBox_anisuzzaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_anisuzzaman.Location = new System.Drawing.Point(565, 162);
+            this.checkBox_anisuzzaman.Location = new System.Drawing.Point(556, 162);
             this.checkBox_anisuzzaman.Name = "checkBox_anisuzzaman";
             this.checkBox_anisuzzaman.Size = new System.Drawing.Size(99, 17);
             this.checkBox_anisuzzaman.TabIndex = 37;
@@ -517,7 +527,7 @@
             // 
             this.checkBox_joyanta.AutoSize = true;
             this.checkBox_joyanta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_joyanta.Location = new System.Drawing.Point(565, 130);
+            this.checkBox_joyanta.Location = new System.Drawing.Point(556, 130);
             this.checkBox_joyanta.Name = "checkBox_joyanta";
             this.checkBox_joyanta.Size = new System.Drawing.Size(70, 17);
             this.checkBox_joyanta.TabIndex = 36;
@@ -529,7 +539,7 @@
             // 
             this.checkBox_Azad.AutoSize = true;
             this.checkBox_Azad.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Azad.Location = new System.Drawing.Point(565, 94);
+            this.checkBox_Azad.Location = new System.Drawing.Point(556, 94);
             this.checkBox_Azad.Name = "checkBox_Azad";
             this.checkBox_Azad.Size = new System.Drawing.Size(54, 17);
             this.checkBox_Azad.TabIndex = 35;
@@ -541,7 +551,7 @@
             // 
             this.checkBox_Harun.AutoSize = true;
             this.checkBox_Harun.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Harun.Location = new System.Drawing.Point(565, 61);
+            this.checkBox_Harun.Location = new System.Drawing.Point(556, 61);
             this.checkBox_Harun.Name = "checkBox_Harun";
             this.checkBox_Harun.Size = new System.Drawing.Size(60, 17);
             this.checkBox_Harun.TabIndex = 34;
@@ -553,7 +563,7 @@
             // 
             this.label_Member.AutoSize = true;
             this.label_Member.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Member.Location = new System.Drawing.Point(562, 28);
+            this.label_Member.Location = new System.Drawing.Point(553, 28);
             this.label_Member.Name = "label_Member";
             this.label_Member.Size = new System.Drawing.Size(51, 13);
             this.label_Member.TabIndex = 33;
@@ -940,23 +950,14 @@
             this.tabControl_main.Location = new System.Drawing.Point(1, 1);
             this.tabControl_main.Name = "tabControl_main";
             this.tabControl_main.SelectedIndex = 0;
-            this.tabControl_main.Size = new System.Drawing.Size(1051, 441);
+            this.tabControl_main.Size = new System.Drawing.Size(1135, 517);
             this.tabControl_main.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(881, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 306);
-            this.pictureBox1.TabIndex = 66;
-            this.pictureBox1.TabStop = false;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 441);
+            this.ClientSize = new System.Drawing.Size(1138, 425);
             this.Controls.Add(this.tabControl_main);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -964,8 +965,8 @@
             this.Text = "Khulna University Teacher Association Election - 2014";
             this.tabPage_all.ResumeLayout(false);
             this.tabPage_all.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_main)).EndInit();
             this.tabControl_main.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1036,7 +1037,7 @@
         private System.Windows.Forms.Label label_VicePresident;
         private System.Windows.Forms.Button button_save;
         private System.Windows.Forms.Button button_export;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox_main;
 
     }
 }
