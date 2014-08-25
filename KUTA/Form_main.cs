@@ -185,14 +185,17 @@ namespace KUTA
 
 
             conn.Open();
-            int return_res = cmd.ExecuteNonQuery();
-            if (return_res > 0 && save_pre_condition())
+            if (save_pre_condition())
             {
-                
-                MessageBox.Show("Data saved successfully ");
-                diSelectAll();
-                show_count();
-                
+                int return_res = cmd.ExecuteNonQuery();
+                if (return_res > 0)
+                {
+
+                    MessageBox.Show("Data saved successfully ");
+                    diSelectAll();
+                    show_count();
+
+                }
             }
             conn.Close();
 

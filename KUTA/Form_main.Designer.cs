@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.tabPage_all = new System.Windows.Forms.TabPage();
+            this.button_count = new System.Windows.Forms.Button();
+            this.button_clear = new System.Windows.Forms.Button();
             this.pictureBox_main = new System.Windows.Forms.PictureBox();
             this.button_export = new System.Windows.Forms.Button();
             this.button_save = new System.Windows.Forms.Button();
@@ -94,8 +96,6 @@
             this.checkBox_matin = new System.Windows.Forms.CheckBox();
             this.checkBox_Ahsanuzzaman = new System.Windows.Forms.CheckBox();
             this.tabControl_main = new System.Windows.Forms.TabControl();
-            this.button_clear = new System.Windows.Forms.Button();
-            this.button_count = new System.Windows.Forms.Button();
             this.tabPage_all.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_main)).BeginInit();
             this.tabControl_main.SuspendLayout();
@@ -168,6 +168,7 @@
             this.tabPage_all.Controls.Add(this.checkBox_saroar);
             this.tabPage_all.Controls.Add(this.checkBox_matin);
             this.tabPage_all.Controls.Add(this.checkBox_Ahsanuzzaman);
+            this.tabPage_all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage_all.Location = new System.Drawing.Point(4, 22);
             this.tabPage_all.Name = "tabPage_all";
             this.tabPage_all.Padding = new System.Windows.Forms.Padding(3);
@@ -175,6 +176,26 @@
             this.tabPage_all.TabIndex = 0;
             this.tabPage_all.Text = "All";
             this.tabPage_all.UseVisualStyleBackColor = true;
+            // 
+            // button_count
+            // 
+            this.button_count.Location = new System.Drawing.Point(151, 367);
+            this.button_count.Name = "button_count";
+            this.button_count.Size = new System.Drawing.Size(75, 23);
+            this.button_count.TabIndex = 68;
+            this.button_count.Text = "Count";
+            this.button_count.UseVisualStyleBackColor = true;
+            this.button_count.Click += new System.EventHandler(this.button_count_Click);
+            // 
+            // button_clear
+            // 
+            this.button_clear.Location = new System.Drawing.Point(20, 368);
+            this.button_clear.Name = "button_clear";
+            this.button_clear.Size = new System.Drawing.Size(75, 23);
+            this.button_clear.TabIndex = 67;
+            this.button_clear.Text = "Clear";
+            this.button_clear.UseVisualStyleBackColor = true;
+            this.button_clear.Click += new System.EventHandler(this.button_clear_Click);
             // 
             // pictureBox_main
             // 
@@ -208,66 +229,66 @@
             // label_PublicationSec
             // 
             this.label_PublicationSec.AutoSize = true;
-            this.label_PublicationSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_PublicationSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_PublicationSec.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label_PublicationSec.Location = new System.Drawing.Point(290, 197);
+            this.label_PublicationSec.Location = new System.Drawing.Point(289, 194);
             this.label_PublicationSec.Name = "label_PublicationSec";
-            this.label_PublicationSec.Size = new System.Drawing.Size(96, 13);
+            this.label_PublicationSec.Size = new System.Drawing.Size(118, 20);
             this.label_PublicationSec.TabIndex = 63;
             this.label_PublicationSec.Text = "Publication Sec";
             // 
             // label_Socialwalfareandcs
             // 
             this.label_Socialwalfareandcs.AutoSize = true;
-            this.label_Socialwalfareandcs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Socialwalfareandcs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Socialwalfareandcs.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label_Socialwalfareandcs.Location = new System.Drawing.Point(148, 197);
+            this.label_Socialwalfareandcs.Location = new System.Drawing.Point(125, 193);
             this.label_Socialwalfareandcs.Name = "label_Socialwalfareandcs";
-            this.label_Socialwalfareandcs.Size = new System.Drawing.Size(129, 13);
+            this.label_Socialwalfareandcs.Size = new System.Drawing.Size(158, 20);
             this.label_Socialwalfareandcs.TabIndex = 62;
             this.label_Socialwalfareandcs.Text = "Social walfare and cs";
             // 
             // label_Treasurer
             // 
             this.label_Treasurer.AutoSize = true;
-            this.label_Treasurer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Treasurer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Treasurer.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label_Treasurer.Location = new System.Drawing.Point(17, 197);
+            this.label_Treasurer.Location = new System.Drawing.Point(6, 201);
             this.label_Treasurer.Name = "label_Treasurer";
-            this.label_Treasurer.Size = new System.Drawing.Size(61, 13);
+            this.label_Treasurer.Size = new System.Drawing.Size(77, 20);
             this.label_Treasurer.TabIndex = 61;
             this.label_Treasurer.Text = "Treasurer";
             // 
             // label_JointSecretary
             // 
             this.label_JointSecretary.AutoSize = true;
-            this.label_JointSecretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_JointSecretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_JointSecretary.ForeColor = System.Drawing.Color.Brown;
-            this.label_JointSecretary.Location = new System.Drawing.Point(424, 28);
+            this.label_JointSecretary.Location = new System.Drawing.Point(423, 28);
             this.label_JointSecretary.Name = "label_JointSecretary";
-            this.label_JointSecretary.Size = new System.Drawing.Size(92, 13);
+            this.label_JointSecretary.Size = new System.Drawing.Size(115, 20);
             this.label_JointSecretary.TabIndex = 60;
             this.label_JointSecretary.Text = "Joint Secretary";
             // 
             // General_Secretary
             // 
             this.General_Secretary.AutoSize = true;
-            this.General_Secretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.General_Secretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.General_Secretary.ForeColor = System.Drawing.Color.ForestGreen;
-            this.General_Secretary.Location = new System.Drawing.Point(290, 28);
+            this.General_Secretary.Location = new System.Drawing.Point(289, 28);
             this.General_Secretary.Name = "General_Secretary";
-            this.General_Secretary.Size = new System.Drawing.Size(109, 13);
+            this.General_Secretary.Size = new System.Drawing.Size(138, 20);
             this.General_Secretary.TabIndex = 59;
             this.General_Secretary.Text = "General Secretary";
             // 
             // label_VicePresident
             // 
             this.label_VicePresident.AutoSize = true;
-            this.label_VicePresident.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_VicePresident.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_VicePresident.ForeColor = System.Drawing.Color.Indigo;
-            this.label_VicePresident.Location = new System.Drawing.Point(148, 28);
+            this.label_VicePresident.Location = new System.Drawing.Point(125, 28);
             this.label_VicePresident.Name = "label_VicePresident";
-            this.label_VicePresident.Size = new System.Drawing.Size(89, 13);
+            this.label_VicePresident.Size = new System.Drawing.Size(112, 20);
             this.label_VicePresident.TabIndex = 58;
             this.label_VicePresident.Text = "Vice-President";
             this.label_VicePresident.Click += new System.EventHandler(this.label1_Click);
@@ -567,10 +588,10 @@
             // label_Member
             // 
             this.label_Member.AutoSize = true;
-            this.label_Member.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Member.Location = new System.Drawing.Point(553, 28);
+            this.label_Member.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Member.Location = new System.Drawing.Point(552, 28);
             this.label_Member.Name = "label_Member";
-            this.label_Member.Size = new System.Drawing.Size(51, 13);
+            this.label_Member.Size = new System.Drawing.Size(67, 20);
             this.label_Member.TabIndex = 33;
             this.label_Member.Text = "Member";
             // 
@@ -889,11 +910,11 @@
             // label_President
             // 
             this.label_President.AutoSize = true;
-            this.label_President.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_President.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_President.ForeColor = System.Drawing.Color.Crimson;
-            this.label_President.Location = new System.Drawing.Point(17, 28);
+            this.label_President.Location = new System.Drawing.Point(6, 28);
             this.label_President.Name = "label_President";
-            this.label_President.Size = new System.Drawing.Size(60, 13);
+            this.label_President.Size = new System.Drawing.Size(76, 20);
             this.label_President.TabIndex = 8;
             this.label_President.Text = "President";
             // 
@@ -957,26 +978,6 @@
             this.tabControl_main.SelectedIndex = 0;
             this.tabControl_main.Size = new System.Drawing.Size(1135, 517);
             this.tabControl_main.TabIndex = 0;
-            // 
-            // button_clear
-            // 
-            this.button_clear.Location = new System.Drawing.Point(20, 368);
-            this.button_clear.Name = "button_clear";
-            this.button_clear.Size = new System.Drawing.Size(75, 23);
-            this.button_clear.TabIndex = 67;
-            this.button_clear.Text = "Clear";
-            this.button_clear.UseVisualStyleBackColor = true;
-            this.button_clear.Click += new System.EventHandler(this.button_clear_Click);
-            // 
-            // button_count
-            // 
-            this.button_count.Location = new System.Drawing.Point(151, 367);
-            this.button_count.Name = "button_count";
-            this.button_count.Size = new System.Drawing.Size(75, 23);
-            this.button_count.TabIndex = 68;
-            this.button_count.Text = "Count";
-            this.button_count.UseVisualStyleBackColor = true;
-            this.button_count.Click += new System.EventHandler(this.button_count_Click);
             // 
             // FormMain
             // 
