@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO; 
 
 
 namespace KUTA
 {
     public partial class FormMain : Form
     {
-        string connstr = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\kuta.mdf;Integrated Security=True;Connect Timeout=30";
+
+        string connstr = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=" + Environment.CurrentDirectory + "\\kuta.mdf;Integrated Security=True;Connect Timeout=30";
 
 
 
@@ -21,6 +23,7 @@ namespace KUTA
         {
             InitializeComponent();
             init_text();
+            //MessageBox.Show("" + Environment.CurrentDirectory);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -120,45 +123,45 @@ namespace KUTA
                 return false;
             }
              */
-            if(count_pres != 1)
+            if(count_pres > 1)
             {
                 MessageBox.Show("Select 1 person for President Position");
                 return false;
             }
 
-            else if (count_vice_pres != 1)
+            else if (count_vice_pres > 1)
             {
                 MessageBox.Show("Select 1 person for Vice President Position");
                 return false;
             }
 
-            else if (count_gen_sec != 1)
+            else if (count_gen_sec > 1)
             {
                 MessageBox.Show("Select 1 person for General Secretary Position");
                 return false;
             }
-            else if (count_joint_sec != 1)
+            else if (count_joint_sec > 1)
             {
                 MessageBox.Show("Select 1 person for Joint Secretary Position");
                 return false;
             }
-            else if (count_tres != 1)
+            else if (count_tres > 1)
             {
                 MessageBox.Show("Select 1 person for Tresurer Position");
                 return false;
             }
-            else if (count_social != 1)
+            else if (count_social > 1)
             {
                 MessageBox.Show("Select 1 person for Social Welfare Position");
                 return false;
             }
-            else if (count_pub != 1)
+            else if (count_pub > 1)
             {
                 MessageBox.Show("Select 1 person for Publication Position");
                 return false;
             }
 
-            else if (count_mem != 6)
+            else if (count_mem > 6)
             {
                 MessageBox.Show("Select 6 persons for Member Position");
                 return false;
@@ -364,8 +367,105 @@ namespace KUTA
 
         private void button_export_Click(object sender, EventArgs e)
         {
+            SqlConnection conn = new SqlConnection(connstr);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "Select * from Table_kuta";
+
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = conn;
+
+                DataTable dt = new DataTable();
+
+                //Add Datacolumn
 
 
+                CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+
+                DataColumn workCol = dt.Columns.Add("" + array_all[0].Text, typeof(String));
+                for (int i = 1; i < array_all.Length; i++)
+                {
+                    dt.Columns.Add("" + array_all[i].Text, typeof(String));
+                }
+
+                //dt.Columns.Add("LastName", typeof(String));
+                //dt.Columns.Add("Blog", typeof(String));
+                //dt.Columns.Add("City", typeof(String));
+                //dt.Columns.Add("Country", typeof(String));
+                StreamWriter wr = new StreamWriter(@"D:\\Book1.xls");
+                //Add in the datarow
+                
+                
+
+
+                    conn.Open();
+
+                    System.Data.SqlClient.SqlDataReader dreader;
+                    dreader = cmd.ExecuteReader();
+                    while (dreader.Read())
+                    {
+                        DataRow newRow = dt.NewRow();
+                        for (int i = 0; i < array_all.Length; i++)
+                        {
+
+
+                            newRow["" + array_all[i].Text] = ""+dreader[i + 1].ToString().Trim();
+
+                        }
+                        dt.Rows.Add(newRow);
+                    }
+                  
+                    dreader.Close();
+                    conn.Close();
+                    
+               
+                
+                //newRow["firstname"] = "Arun";
+                //newRow["lastname"] = "Prakash";
+                //newRow["Blog"] = "http://royalarun.blogspot.com/";
+                //newRow["city"] = "Coimbatore";
+                //newRow["country"] = "India";
+
+               
+
+               
+                
+
+                try
+                {
+
+                    for (int i = 0; i < dt.Columns.Count; i++)
+                    {
+                        wr.Write(dt.Columns[i].ToString().ToUpper() + "\t");
+                    }
+
+                    wr.WriteLine();
+
+                    //write rows to excel file
+                    for (int i = 0; i < (dt.Rows.Count); i++)
+                    {
+                        for (int j = 0; j < dt.Columns.Count; j++)
+                        {
+                            if (dt.Rows[i][j] != null)
+                            {
+                                wr.Write(Convert.ToString(dt.Rows[i][j]) + "\t");
+                            }
+                            else
+                            {
+                                wr.Write("\t");
+                            }
+                        }
+                        //go to next line
+                        wr.WriteLine();
+                    }
+                    //close file
+                    wr.Close();
+                    MessageBox.Show("Done");
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            
         }
 
         private void button_clear_Click(object sender, EventArgs e)

@@ -181,7 +181,7 @@
             // 
             this.button_count.Location = new System.Drawing.Point(151, 367);
             this.button_count.Name = "button_count";
-            this.button_count.Size = new System.Drawing.Size(75, 23);
+            this.button_count.Size = new System.Drawing.Size(75, 32);
             this.button_count.TabIndex = 68;
             this.button_count.Text = "Count";
             this.button_count.UseVisualStyleBackColor = true;
@@ -191,7 +191,7 @@
             // 
             this.button_clear.Location = new System.Drawing.Point(20, 368);
             this.button_clear.Name = "button_clear";
-            this.button_clear.Size = new System.Drawing.Size(75, 23);
+            this.button_clear.Size = new System.Drawing.Size(75, 31);
             this.button_clear.TabIndex = 67;
             this.button_clear.Text = "Clear";
             this.button_clear.UseVisualStyleBackColor = true;
@@ -210,7 +210,7 @@
             // 
             this.button_export.Location = new System.Drawing.Point(1006, 368);
             this.button_export.Name = "button_export";
-            this.button_export.Size = new System.Drawing.Size(75, 23);
+            this.button_export.Size = new System.Drawing.Size(75, 31);
             this.button_export.TabIndex = 65;
             this.button_export.Text = "Export XLSX";
             this.button_export.UseVisualStyleBackColor = true;
@@ -220,7 +220,7 @@
             // 
             this.button_save.Location = new System.Drawing.Point(872, 368);
             this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(75, 23);
+            this.button_save.Size = new System.Drawing.Size(75, 31);
             this.button_save.TabIndex = 64;
             this.button_save.Text = "Save";
             this.button_save.UseVisualStyleBackColor = true;
@@ -420,9 +420,9 @@
             this.checkBox_nazrul_mem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_nazrul_mem.Location = new System.Drawing.Point(692, 230);
             this.checkBox_nazrul_mem.Name = "checkBox_nazrul_mem";
-            this.checkBox_nazrul_mem.Size = new System.Drawing.Size(62, 17);
+            this.checkBox_nazrul_mem.Size = new System.Drawing.Size(78, 17);
             this.checkBox_nazrul_mem.TabIndex = 47;
-            this.checkBox_nazrul_mem.Text = "Nazrul";
+            this.checkBox_nazrul_mem.Text = "Nazrul_m";
             this.checkBox_nazrul_mem.UseVisualStyleBackColor = true;
             this.checkBox_nazrul_mem.CheckedChanged += new System.EventHandler(this.checkBox_nazrul_mem_CheckedChanged);
             this.checkBox_nazrul_mem.Click += new System.EventHandler(this.on_member);
@@ -983,7 +983,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 425);
+            this.ClientSize = new System.Drawing.Size(1138, 434);
             this.Controls.Add(this.tabControl_main);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
