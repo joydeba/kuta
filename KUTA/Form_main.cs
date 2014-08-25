@@ -34,7 +34,7 @@ namespace KUTA
         Boolean save_pre_condition()
         {
             int count_all = 0,count_pres=0,count_vice_pres=0,count_gen_sec=0,count_joint_sec=0,count_tres=0,count_social=0,count_pub=0,count_mem=0;
-            //CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
             CheckBox[] array_pres = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul };
             CheckBox[] array_vice_pres = new CheckBox[] { checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar };
             CheckBox[] array_gen_sec = new CheckBox[] { checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar };
@@ -44,7 +44,7 @@ namespace KUTA
             CheckBox[] array_pub = new CheckBox[] { checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul };
             CheckBox[] array_mem = new CheckBox[] { checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
             
-            /*
+            
             for (int i = 0; i < array_all.Length; i++)
             {
                 if(array_all[i].Checked == true)
@@ -52,7 +52,7 @@ namespace KUTA
                     count_all++;
                 }
             }
-            */
+            
 
             for (int i = 0; i < array_pres.Length; i++)
             {
@@ -116,14 +116,14 @@ namespace KUTA
                     count_mem++;
                 }
             }
-            /*
-            if (count_all != 13)
+            
+            if (count_all < 1)
             {
-                MessageBox.Show("Select total 13 persons");
+                MessageBox.Show("Select at least one person");
                 return false;
             }
-             */
-            if(count_pres > 1)
+            
+            else if(count_pres > 1)
             {
                 MessageBox.Show("Select 1 person for President Position");
                 return false;
@@ -367,12 +367,12 @@ namespace KUTA
 
         private void button_export_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(connstr);
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "Select * from Table_kuta";
+                SqlConnection conn = new SqlConnection(connstr);
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = "Select * from Table_kuta";
 
-            cmd.CommandType = System.Data.CommandType.Text;
-            cmd.Connection = conn;
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.Connection = conn;
 
                 DataTable dt = new DataTable();
 
@@ -391,7 +391,7 @@ namespace KUTA
                 //dt.Columns.Add("Blog", typeof(String));
                 //dt.Columns.Add("City", typeof(String));
                 //dt.Columns.Add("Country", typeof(String));
-                StreamWriter wr = new StreamWriter(@"D:\\Book1.xls");
+                
                 //Add in the datarow
                 
                 
@@ -432,6 +432,7 @@ namespace KUTA
 
                 try
                 {
+                    StreamWriter wr = new StreamWriter("" + Environment.CurrentDirectory + "\\kuta.xls");
 
                     for (int i = 0; i < dt.Columns.Count; i++)
                     {
@@ -463,7 +464,7 @@ namespace KUTA
                 }
                 catch (Exception ex)
                 {
-                    throw ex;
+                    MessageBox.Show("Another Program Using Excel file");
                 }
             
         }
