@@ -34,15 +34,15 @@ namespace KUTA
         Boolean save_pre_condition()
         {
             int count_all = 0,count_pres=0,count_vice_pres=0,count_gen_sec=0,count_joint_sec=0,count_tres=0,count_social=0,count_pub=0,count_mem=0;
-            CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
-            CheckBox[] array_pres = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul };
-            CheckBox[] array_vice_pres = new CheckBox[] { checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar };
-            CheckBox[] array_gen_sec = new CheckBox[] { checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar };
-            CheckBox[] array_joint_sec = new CheckBox[] { checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir };
-            CheckBox[] array_tres = new CheckBox[] { checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif };
-            CheckBox[] array_social = new CheckBox[] {checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo};
-            CheckBox[] array_pub = new CheckBox[] { checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul };
-            CheckBox[] array_mem = new CheckBox[] { checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam, checkBox_sarder_safiqul, checkBox_hefzur_rahman,  checkBox_nazmus_sadath, checkBox_sarwar_jahan, checkBox_asish_kumar, checkBox_sarif_mohammad, checkBox_Eijaz, checkBox_Enamul, checkBox_sayda, checkBox_imran, checkBox_Nihar, checkBox_zahid, checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin };
+            CheckBox[] array_pres = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam };
+            CheckBox[] array_vice_pres = new CheckBox[] { checkBox_sarder_safiqul, checkBox_hefzur_rahman };
+            CheckBox[] array_gen_sec = new CheckBox[] { checkBox_nazmus_sadath, checkBox_sarwar_jahan };
+            CheckBox[] array_joint_sec = new CheckBox[] { checkBox_asish_kumar, checkBox_sarif_mohammad };
+            CheckBox[] array_tres = new CheckBox[] { checkBox_Eijaz, checkBox_Enamul };
+            CheckBox[] array_social = new CheckBox[] {checkBox_sayda, checkBox_imran};
+            CheckBox[] array_pub = new CheckBox[] { checkBox_Nihar, checkBox_zahid };
+            CheckBox[] array_mem = new CheckBox[] { checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin};
             
             
             for (int i = 0; i < array_all.Length; i++)
@@ -181,7 +181,7 @@ namespace KUTA
             SqlCommand cmd = new SqlCommand();
             //MessageBox.Show("" + checkBox_Ahsanuzzaman.Checked);
 
-            cmd.CommandText = "INSERT INTO Table_kuta VALUES (' " + checkBox_Ahsanuzzaman.Checked + " ',' " + checkBox_matin.Checked + " ',' " + checkBox_saroar.Checked + " ',' " + checkBox_mahmudul.Checked + " ',' " + checkBox_rakkibu.Checked + " ',' " + checkBox_rafiqul.Checked + " ',' " + checkBox_safiqul.Checked + " ',' " + checkBox_julfikar.Checked + " ',' " + checkBox_mostafizar.Checked + " ',' " + checkBox_Khashrul.Checked + " ',' " + checkBox_rubel.Checked + " ',' " + checkBox_sarwar.Checked + " ',' " + checkBox_nabiul.Checked + " ',' " + checkBox_nazrul_jointS.Checked + " ',' " + checkBox_Sadiqul.Checked + " ',' " + checkBox_Sabbir.Checked + " ',' " + checkBox_Asish.Checked + " ',' " + checkBox_Mustafizur.Checked + " ',' " + checkBox_Rabiul.Checked + " ',' " + checkBox_Sarif.Checked + " ',' " + checkBox_Monjur.Checked + " ',' " + checkBox_Atikul.Checked + " ',' " + checkBox_Enamul.Checked + " ',' " + checkBox_Shovo.Checked + " ',' " + checkBox_Afirul.Checked + " ',' " + checkBox_Hasan.Checked + " ',' " + checkBox_Protab.Checked + " ',' " + checkBox_Serajul.Checked + " ',' " + checkBox_Harun.Checked + " ',' " + checkBox_Azad.Checked + " ',' " + checkBox_joyanta.Checked + " ',' " + checkBox_anisuzzaman.Checked + " ',' " + checkBox_firoz.Checked + " ',' " + checkBox_howlader.Checked + " ',' " + checkBox_Maniruzzaman.Checked + " ',' " + checkBox_mizanur.Checked + " ',' " + checkBox_Nazmus.Checked + " ',' " + checkBox_Raihan.Checked + " ',' " + checkBox_rejaul.Checked + " ',' " + checkBox_hefzur.Checked + " ',' " + checkBox_mostafa.Checked + " ',' " + checkBox_nazrul_mem.Checked + " ',' " + checkBox_shafiqur.Checked + " ',' " + checkBox_hosna_ara.Checked + " ',' " + checkBox_rakib.Checked + " ',' " + checkBox_shajalal.Checked + " ',' " + checkBox_rumana.Checked + " ',' " + checkBox_saikat.Checked + " ',' " + checkBox_salma.Checked + " ',' " + checkBox_sayeda.Checked + " ' , '" + checkBox_roziqul.Checked + " ',' " + checkBox_Rubaiot.Checked + " ')";
+            cmd.CommandText = "INSERT INTO Table_kuta VALUES (' " + checkBox_Ahsanuzzaman.Checked + " ',' " + checkBox_ashraful_alam.Checked  + " ',' " + checkBox_sarder_safiqul.Checked + " ',' " + checkBox_hefzur_rahman.Checked  + " ',' " + checkBox_nazmus_sadath.Checked + " ',' " + checkBox_sarwar_jahan.Checked   + " ',' " + checkBox_asish_kumar.Checked + " ',' " + checkBox_sarif_mohammad.Checked  + " ',' " + checkBox_Eijaz.Checked + " ',' " + checkBox_Enamul.Checked  + " ',' " + checkBox_sayda.Checked + " ',' " + checkBox_imran.Checked  + " ',' " + checkBox_Nihar.Checked + " ',' " + checkBox_zahid.Checked   + " ',' " + checkBox_Arif.Checked + " ',' " + checkBox_manir.Checked + " ',' " + checkBox_Shamim.Checked + " ',' " + checkBox_serajul.Checked + " ',' " + checkBox_mahadi.Checked + " ',' " + checkBox_salauddin.Checked   + " ',' " + checkBox_Nazrul.Checked + " ',' " + checkBox_Shariful.Checked + " ',' " + checkBox_molla_shafiqur.Checked + " ',' " + checkBox_remme.Checked + " ',' " + checkBox_motasim.Checked + " ',' " + checkBox_tuhin.Checked  + " ')";
             
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.Connection = conn;
@@ -208,7 +208,7 @@ namespace KUTA
         String[] checkboxtext = new String[52];
         void init_text()
         {
-            CheckBox[] array_i = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_i = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam,  checkBox_sarder_safiqul, checkBox_hefzur_rahman, checkBox_nazmus_sadath, checkBox_sarwar_jahan, checkBox_asish_kumar, checkBox_sarif_mohammad, checkBox_Eijaz, checkBox_Enamul, checkBox_sayda, checkBox_imran, checkBox_Nihar, checkBox_zahid, checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin};
             for (int i = 0; i < array_i.Length; i++)
             {
                 checkboxtext[i] = array_i[i].Text;
@@ -217,7 +217,7 @@ namespace KUTA
         }
         void diSelectAll()
         {
-            CheckBox[] array_d = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_d = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam, checkBox_sarder_safiqul, checkBox_hefzur_rahman, checkBox_nazmus_sadath, checkBox_sarwar_jahan, checkBox_asish_kumar, checkBox_sarif_mohammad, checkBox_Eijaz, checkBox_Enamul,  checkBox_sayda, checkBox_imran, checkBox_Nihar, checkBox_zahid, checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin};
             for (int i = 0; i < array_d.Length; i++)
             {
                     array_d[i].Checked = false;
@@ -243,7 +243,7 @@ namespace KUTA
 
 
 
-            CheckBox[] array_s = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array_s = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam, checkBox_sarder_safiqul, checkBox_hefzur_rahman, checkBox_nazmus_sadath, checkBox_sarwar_jahan, checkBox_asish_kumar, checkBox_sarif_mohammad, checkBox_Eijaz, checkBox_Enamul, checkBox_sayda, checkBox_imran, checkBox_Nihar, checkBox_zahid, checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin};
             for (int i = 0; i < array_s.Length; i++)
             {
                 int count = 0;
@@ -326,7 +326,7 @@ namespace KUTA
         private void on_member(object sender, EventArgs e)
         {
             int numberChecked = 0;
-            CheckBox[] array = new CheckBox[] { checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+            CheckBox[] array = new CheckBox[] { checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin };
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i].Checked)
@@ -379,7 +379,7 @@ namespace KUTA
                 //Add Datacolumn
 
 
-                CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_matin, checkBox_saroar, checkBox_mahmudul, checkBox_rakkibu, checkBox_rafiqul, checkBox_safiqul, checkBox_julfikar, checkBox_mostafizar, checkBox_Khashrul, checkBox_rubel, checkBox_sarwar, checkBox_nabiul, checkBox_nazrul_jointS, checkBox_Sadiqul, checkBox_Sabbir, checkBox_Asish, checkBox_Mustafizur, checkBox_Rabiul, checkBox_Sarif, checkBox_Monjur, checkBox_Atikul, checkBox_Enamul, checkBox_Shovo, checkBox_Afirul, checkBox_Hasan, checkBox_Protab, checkBox_Serajul, checkBox_Harun, checkBox_Azad, checkBox_joyanta, checkBox_anisuzzaman, checkBox_firoz, checkBox_howlader, checkBox_Maniruzzaman, checkBox_mizanur, checkBox_Nazmus, checkBox_Raihan, checkBox_rejaul, checkBox_hefzur, checkBox_mostafa, checkBox_nazrul_mem, checkBox_shafiqur, checkBox_hosna_ara, checkBox_rakib, checkBox_shajalal, checkBox_rumana, checkBox_saikat, checkBox_salma, checkBox_sayeda, checkBox_roziqul, checkBox_Rubaiot };
+                CheckBox[] array_all = new CheckBox[] { checkBox_Ahsanuzzaman, checkBox_ashraful_alam, checkBox_sarder_safiqul, checkBox_hefzur_rahman, checkBox_nazmus_sadath, checkBox_sarwar_jahan,  checkBox_asish_kumar, checkBox_sarif_mohammad, checkBox_Eijaz, checkBox_Enamul, checkBox_sayda, checkBox_imran, checkBox_Nihar, checkBox_zahid, checkBox_Arif, checkBox_manir, checkBox_Shamim, checkBox_serajul, checkBox_mahadi, checkBox_salauddin, checkBox_Nazrul, checkBox_Shariful, checkBox_molla_shafiqur, checkBox_remme, checkBox_motasim, checkBox_tuhin };
 
                 DataColumn workCol = dt.Columns.Add("" + array_all[0].Text, typeof(String));
                 for (int i = 1; i < array_all.Length; i++)
@@ -504,6 +504,171 @@ namespace KUTA
             diSelectAll();
             show_count();
             MessageBox.Show("Done");
+        }
+
+        private void label_Treasurer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage_all_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Socialwalfareandcs_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_main_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_PublicationSec_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_JointSecretary_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void General_Secretary_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_motasim_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_remme_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_molla_shafiqur_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Shariful_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_mahadi_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_serajul_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Shamim_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_manir_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Arif_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Member_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_sarif_mohammad_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_asish_kumar_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_zahid_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Nihar_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_sarwar_jahan_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_nazmus_sadath_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_imran_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_sayda_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_hefzur_rahman_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_sarder_safiqul_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Enamul_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Eijaz_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_President_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_ashraful_alam_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_Ahsanuzzaman_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControl_main_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
 

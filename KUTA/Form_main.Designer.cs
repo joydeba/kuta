@@ -41,59 +41,33 @@
             this.label_JointSecretary = new System.Windows.Forms.Label();
             this.General_Secretary = new System.Windows.Forms.Label();
             this.label_VicePresident = new System.Windows.Forms.Label();
-            this.checkBox_Rubaiot = new System.Windows.Forms.CheckBox();
-            this.checkBox_roziqul = new System.Windows.Forms.CheckBox();
-            this.checkBox_sayeda = new System.Windows.Forms.CheckBox();
-            this.checkBox_salma = new System.Windows.Forms.CheckBox();
-            this.checkBox_saikat = new System.Windows.Forms.CheckBox();
-            this.checkBox_rumana = new System.Windows.Forms.CheckBox();
-            this.checkBox_shajalal = new System.Windows.Forms.CheckBox();
-            this.checkBox_rakib = new System.Windows.Forms.CheckBox();
-            this.checkBox_hosna_ara = new System.Windows.Forms.CheckBox();
-            this.checkBox_shafiqur = new System.Windows.Forms.CheckBox();
-            this.checkBox_nazrul_mem = new System.Windows.Forms.CheckBox();
-            this.checkBox_mostafa = new System.Windows.Forms.CheckBox();
-            this.checkBox_hefzur = new System.Windows.Forms.CheckBox();
-            this.checkBox_rejaul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Raihan = new System.Windows.Forms.CheckBox();
-            this.checkBox_Nazmus = new System.Windows.Forms.CheckBox();
-            this.checkBox_mizanur = new System.Windows.Forms.CheckBox();
-            this.checkBox_Maniruzzaman = new System.Windows.Forms.CheckBox();
-            this.checkBox_howlader = new System.Windows.Forms.CheckBox();
-            this.checkBox_firoz = new System.Windows.Forms.CheckBox();
-            this.checkBox_anisuzzaman = new System.Windows.Forms.CheckBox();
-            this.checkBox_joyanta = new System.Windows.Forms.CheckBox();
-            this.checkBox_Azad = new System.Windows.Forms.CheckBox();
-            this.checkBox_Harun = new System.Windows.Forms.CheckBox();
+            this.checkBox_tuhin = new System.Windows.Forms.CheckBox();
+            this.checkBox_motasim = new System.Windows.Forms.CheckBox();
+            this.checkBox_remme = new System.Windows.Forms.CheckBox();
+            this.checkBox_molla_shafiqur = new System.Windows.Forms.CheckBox();
+            this.checkBox_Shariful = new System.Windows.Forms.CheckBox();
+            this.checkBox_Nazrul = new System.Windows.Forms.CheckBox();
+            this.checkBox_salauddin = new System.Windows.Forms.CheckBox();
+            this.checkBox_mahadi = new System.Windows.Forms.CheckBox();
+            this.checkBox_serajul = new System.Windows.Forms.CheckBox();
+            this.checkBox_Shamim = new System.Windows.Forms.CheckBox();
+            this.checkBox_manir = new System.Windows.Forms.CheckBox();
+            this.checkBox_Arif = new System.Windows.Forms.CheckBox();
             this.label_Member = new System.Windows.Forms.Label();
-            this.checkBox_Sabbir = new System.Windows.Forms.CheckBox();
-            this.checkBox_Sadiqul = new System.Windows.Forms.CheckBox();
-            this.checkBox_nazrul_jointS = new System.Windows.Forms.CheckBox();
-            this.checkBox_nabiul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Serajul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Protab = new System.Windows.Forms.CheckBox();
-            this.checkBox_Hasan = new System.Windows.Forms.CheckBox();
-            this.checkBox_Afirul = new System.Windows.Forms.CheckBox();
-            this.checkBox_sarwar = new System.Windows.Forms.CheckBox();
-            this.checkBox_rubel = new System.Windows.Forms.CheckBox();
-            this.checkBox_Khashrul = new System.Windows.Forms.CheckBox();
-            this.checkBox_mostafizar = new System.Windows.Forms.CheckBox();
-            this.checkBox_Shovo = new System.Windows.Forms.CheckBox();
+            this.checkBox_sarif_mohammad = new System.Windows.Forms.CheckBox();
+            this.checkBox_asish_kumar = new System.Windows.Forms.CheckBox();
+            this.checkBox_zahid = new System.Windows.Forms.CheckBox();
+            this.checkBox_Nihar = new System.Windows.Forms.CheckBox();
+            this.checkBox_sarwar_jahan = new System.Windows.Forms.CheckBox();
+            this.checkBox_nazmus_sadath = new System.Windows.Forms.CheckBox();
+            this.checkBox_imran = new System.Windows.Forms.CheckBox();
+            this.checkBox_sayda = new System.Windows.Forms.CheckBox();
+            this.checkBox_hefzur_rahman = new System.Windows.Forms.CheckBox();
+            this.checkBox_sarder_safiqul = new System.Windows.Forms.CheckBox();
             this.checkBox_Enamul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Atikul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Monjur = new System.Windows.Forms.CheckBox();
-            this.checkBox_julfikar = new System.Windows.Forms.CheckBox();
-            this.checkBox_safiqul = new System.Windows.Forms.CheckBox();
-            this.checkBox_rafiqul = new System.Windows.Forms.CheckBox();
-            this.checkBox_rakkibu = new System.Windows.Forms.CheckBox();
-            this.checkBox_Sarif = new System.Windows.Forms.CheckBox();
-            this.checkBox_Rabiul = new System.Windows.Forms.CheckBox();
-            this.checkBox_Mustafizur = new System.Windows.Forms.CheckBox();
-            this.checkBox_Asish = new System.Windows.Forms.CheckBox();
+            this.checkBox_Eijaz = new System.Windows.Forms.CheckBox();
             this.label_President = new System.Windows.Forms.Label();
-            this.checkBox_mahmudul = new System.Windows.Forms.CheckBox();
-            this.checkBox_saroar = new System.Windows.Forms.CheckBox();
-            this.checkBox_matin = new System.Windows.Forms.CheckBox();
+            this.checkBox_ashraful_alam = new System.Windows.Forms.CheckBox();
             this.checkBox_Ahsanuzzaman = new System.Windows.Forms.CheckBox();
             this.tabControl_main = new System.Windows.Forms.TabControl();
             this.tabPage_all.SuspendLayout();
@@ -114,74 +88,49 @@
             this.tabPage_all.Controls.Add(this.label_JointSecretary);
             this.tabPage_all.Controls.Add(this.General_Secretary);
             this.tabPage_all.Controls.Add(this.label_VicePresident);
-            this.tabPage_all.Controls.Add(this.checkBox_Rubaiot);
-            this.tabPage_all.Controls.Add(this.checkBox_roziqul);
-            this.tabPage_all.Controls.Add(this.checkBox_sayeda);
-            this.tabPage_all.Controls.Add(this.checkBox_salma);
-            this.tabPage_all.Controls.Add(this.checkBox_saikat);
-            this.tabPage_all.Controls.Add(this.checkBox_rumana);
-            this.tabPage_all.Controls.Add(this.checkBox_shajalal);
-            this.tabPage_all.Controls.Add(this.checkBox_rakib);
-            this.tabPage_all.Controls.Add(this.checkBox_hosna_ara);
-            this.tabPage_all.Controls.Add(this.checkBox_shafiqur);
-            this.tabPage_all.Controls.Add(this.checkBox_nazrul_mem);
-            this.tabPage_all.Controls.Add(this.checkBox_mostafa);
-            this.tabPage_all.Controls.Add(this.checkBox_hefzur);
-            this.tabPage_all.Controls.Add(this.checkBox_rejaul);
-            this.tabPage_all.Controls.Add(this.checkBox_Raihan);
-            this.tabPage_all.Controls.Add(this.checkBox_Nazmus);
-            this.tabPage_all.Controls.Add(this.checkBox_mizanur);
-            this.tabPage_all.Controls.Add(this.checkBox_Maniruzzaman);
-            this.tabPage_all.Controls.Add(this.checkBox_howlader);
-            this.tabPage_all.Controls.Add(this.checkBox_firoz);
-            this.tabPage_all.Controls.Add(this.checkBox_anisuzzaman);
-            this.tabPage_all.Controls.Add(this.checkBox_joyanta);
-            this.tabPage_all.Controls.Add(this.checkBox_Azad);
-            this.tabPage_all.Controls.Add(this.checkBox_Harun);
+            this.tabPage_all.Controls.Add(this.checkBox_tuhin);
+            this.tabPage_all.Controls.Add(this.checkBox_motasim);
+            this.tabPage_all.Controls.Add(this.checkBox_remme);
+            this.tabPage_all.Controls.Add(this.checkBox_molla_shafiqur);
+            this.tabPage_all.Controls.Add(this.checkBox_Shariful);
+            this.tabPage_all.Controls.Add(this.checkBox_Nazrul);
+            this.tabPage_all.Controls.Add(this.checkBox_salauddin);
+            this.tabPage_all.Controls.Add(this.checkBox_mahadi);
+            this.tabPage_all.Controls.Add(this.checkBox_serajul);
+            this.tabPage_all.Controls.Add(this.checkBox_Shamim);
+            this.tabPage_all.Controls.Add(this.checkBox_manir);
+            this.tabPage_all.Controls.Add(this.checkBox_Arif);
             this.tabPage_all.Controls.Add(this.label_Member);
-            this.tabPage_all.Controls.Add(this.checkBox_Sabbir);
-            this.tabPage_all.Controls.Add(this.checkBox_Sadiqul);
-            this.tabPage_all.Controls.Add(this.checkBox_nazrul_jointS);
-            this.tabPage_all.Controls.Add(this.checkBox_nabiul);
-            this.tabPage_all.Controls.Add(this.checkBox_Serajul);
-            this.tabPage_all.Controls.Add(this.checkBox_Protab);
-            this.tabPage_all.Controls.Add(this.checkBox_Hasan);
-            this.tabPage_all.Controls.Add(this.checkBox_Afirul);
-            this.tabPage_all.Controls.Add(this.checkBox_sarwar);
-            this.tabPage_all.Controls.Add(this.checkBox_rubel);
-            this.tabPage_all.Controls.Add(this.checkBox_Khashrul);
-            this.tabPage_all.Controls.Add(this.checkBox_mostafizar);
-            this.tabPage_all.Controls.Add(this.checkBox_Shovo);
+            this.tabPage_all.Controls.Add(this.checkBox_sarif_mohammad);
+            this.tabPage_all.Controls.Add(this.checkBox_asish_kumar);
+            this.tabPage_all.Controls.Add(this.checkBox_zahid);
+            this.tabPage_all.Controls.Add(this.checkBox_Nihar);
+            this.tabPage_all.Controls.Add(this.checkBox_sarwar_jahan);
+            this.tabPage_all.Controls.Add(this.checkBox_nazmus_sadath);
+            this.tabPage_all.Controls.Add(this.checkBox_imran);
+            this.tabPage_all.Controls.Add(this.checkBox_sayda);
+            this.tabPage_all.Controls.Add(this.checkBox_hefzur_rahman);
+            this.tabPage_all.Controls.Add(this.checkBox_sarder_safiqul);
             this.tabPage_all.Controls.Add(this.checkBox_Enamul);
-            this.tabPage_all.Controls.Add(this.checkBox_Atikul);
-            this.tabPage_all.Controls.Add(this.checkBox_Monjur);
-            this.tabPage_all.Controls.Add(this.checkBox_julfikar);
-            this.tabPage_all.Controls.Add(this.checkBox_safiqul);
-            this.tabPage_all.Controls.Add(this.checkBox_rafiqul);
-            this.tabPage_all.Controls.Add(this.checkBox_rakkibu);
-            this.tabPage_all.Controls.Add(this.checkBox_Sarif);
-            this.tabPage_all.Controls.Add(this.checkBox_Rabiul);
-            this.tabPage_all.Controls.Add(this.checkBox_Mustafizur);
-            this.tabPage_all.Controls.Add(this.checkBox_Asish);
+            this.tabPage_all.Controls.Add(this.checkBox_Eijaz);
             this.tabPage_all.Controls.Add(this.label_President);
-            this.tabPage_all.Controls.Add(this.checkBox_mahmudul);
-            this.tabPage_all.Controls.Add(this.checkBox_saroar);
-            this.tabPage_all.Controls.Add(this.checkBox_matin);
+            this.tabPage_all.Controls.Add(this.checkBox_ashraful_alam);
             this.tabPage_all.Controls.Add(this.checkBox_Ahsanuzzaman);
             this.tabPage_all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage_all.Location = new System.Drawing.Point(4, 22);
             this.tabPage_all.Name = "tabPage_all";
             this.tabPage_all.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_all.Size = new System.Drawing.Size(1127, 491);
+            this.tabPage_all.Size = new System.Drawing.Size(1273, 571);
             this.tabPage_all.TabIndex = 0;
             this.tabPage_all.Text = "All";
             this.tabPage_all.UseVisualStyleBackColor = true;
+            this.tabPage_all.Click += new System.EventHandler(this.tabPage_all_Click);
             // 
             // button_count
             // 
-            this.button_count.Location = new System.Drawing.Point(151, 367);
+            this.button_count.Location = new System.Drawing.Point(437, 433);
             this.button_count.Name = "button_count";
-            this.button_count.Size = new System.Drawing.Size(75, 32);
+            this.button_count.Size = new System.Drawing.Size(186, 67);
             this.button_count.TabIndex = 68;
             this.button_count.Text = "Count";
             this.button_count.UseVisualStyleBackColor = true;
@@ -189,9 +138,9 @@
             // 
             // button_clear
             // 
-            this.button_clear.Location = new System.Drawing.Point(20, 368);
+            this.button_clear.Location = new System.Drawing.Point(110, 433);
             this.button_clear.Name = "button_clear";
-            this.button_clear.Size = new System.Drawing.Size(75, 31);
+            this.button_clear.Size = new System.Drawing.Size(183, 67);
             this.button_clear.TabIndex = 67;
             this.button_clear.Text = "Clear";
             this.button_clear.UseVisualStyleBackColor = true;
@@ -200,17 +149,18 @@
             // pictureBox_main
             // 
             this.pictureBox_main.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_main.Image")));
-            this.pictureBox_main.Location = new System.Drawing.Point(950, 0);
+            this.pictureBox_main.Location = new System.Drawing.Point(1127, 0);
             this.pictureBox_main.Name = "pictureBox_main";
-            this.pictureBox_main.Size = new System.Drawing.Size(171, 306);
+            this.pictureBox_main.Size = new System.Drawing.Size(146, 386);
             this.pictureBox_main.TabIndex = 66;
             this.pictureBox_main.TabStop = false;
+            this.pictureBox_main.Click += new System.EventHandler(this.pictureBox_main_Click);
             // 
             // button_export
             // 
-            this.button_export.Location = new System.Drawing.Point(1006, 368);
+            this.button_export.Location = new System.Drawing.Point(1017, 433);
             this.button_export.Name = "button_export";
-            this.button_export.Size = new System.Drawing.Size(75, 31);
+            this.button_export.Size = new System.Drawing.Size(173, 67);
             this.button_export.TabIndex = 65;
             this.button_export.Text = "Export XLSX";
             this.button_export.UseVisualStyleBackColor = true;
@@ -218,9 +168,9 @@
             // 
             // button_save
             // 
-            this.button_save.Location = new System.Drawing.Point(872, 368);
+            this.button_save.Location = new System.Drawing.Point(717, 433);
             this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(75, 31);
+            this.button_save.Size = new System.Drawing.Size(180, 67);
             this.button_save.TabIndex = 64;
             this.button_save.Text = "Save";
             this.button_save.UseVisualStyleBackColor = true;
@@ -229,761 +179,465 @@
             // label_PublicationSec
             // 
             this.label_PublicationSec.AutoSize = true;
-            this.label_PublicationSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_PublicationSec.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_PublicationSec.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label_PublicationSec.Location = new System.Drawing.Point(289, 194);
+            this.label_PublicationSec.Location = new System.Drawing.Point(457, 289);
             this.label_PublicationSec.Name = "label_PublicationSec";
-            this.label_PublicationSec.Size = new System.Drawing.Size(118, 20);
+            this.label_PublicationSec.Size = new System.Drawing.Size(195, 31);
             this.label_PublicationSec.TabIndex = 63;
             this.label_PublicationSec.Text = "Publication Sec";
+            this.label_PublicationSec.Click += new System.EventHandler(this.label_PublicationSec_Click);
             // 
             // label_Socialwalfareandcs
             // 
             this.label_Socialwalfareandcs.AutoSize = true;
-            this.label_Socialwalfareandcs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Socialwalfareandcs.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Socialwalfareandcs.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label_Socialwalfareandcs.Location = new System.Drawing.Point(125, 193);
+            this.label_Socialwalfareandcs.Location = new System.Drawing.Point(174, 285);
             this.label_Socialwalfareandcs.Name = "label_Socialwalfareandcs";
-            this.label_Socialwalfareandcs.Size = new System.Drawing.Size(158, 20);
+            this.label_Socialwalfareandcs.Size = new System.Drawing.Size(261, 31);
             this.label_Socialwalfareandcs.TabIndex = 62;
             this.label_Socialwalfareandcs.Text = "Social walfare and cs";
+            this.label_Socialwalfareandcs.Click += new System.EventHandler(this.label_Socialwalfareandcs_Click);
             // 
             // label_Treasurer
             // 
             this.label_Treasurer.AutoSize = true;
-            this.label_Treasurer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Treasurer.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Treasurer.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label_Treasurer.Location = new System.Drawing.Point(6, 201);
+            this.label_Treasurer.Location = new System.Drawing.Point(7, 285);
             this.label_Treasurer.Name = "label_Treasurer";
-            this.label_Treasurer.Size = new System.Drawing.Size(77, 20);
+            this.label_Treasurer.Size = new System.Drawing.Size(130, 31);
             this.label_Treasurer.TabIndex = 61;
             this.label_Treasurer.Text = "Treasurer";
+            this.label_Treasurer.Click += new System.EventHandler(this.label_Treasurer_Click);
             // 
             // label_JointSecretary
             // 
             this.label_JointSecretary.AutoSize = true;
-            this.label_JointSecretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_JointSecretary.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_JointSecretary.ForeColor = System.Drawing.Color.Brown;
-            this.label_JointSecretary.Location = new System.Drawing.Point(423, 28);
+            this.label_JointSecretary.Location = new System.Drawing.Point(819, 21);
             this.label_JointSecretary.Name = "label_JointSecretary";
-            this.label_JointSecretary.Size = new System.Drawing.Size(115, 20);
+            this.label_JointSecretary.Size = new System.Drawing.Size(192, 31);
             this.label_JointSecretary.TabIndex = 60;
             this.label_JointSecretary.Text = "Joint Secretary";
+            this.label_JointSecretary.Click += new System.EventHandler(this.label_JointSecretary_Click);
             // 
             // General_Secretary
             // 
             this.General_Secretary.AutoSize = true;
-            this.General_Secretary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.General_Secretary.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.General_Secretary.ForeColor = System.Drawing.Color.ForestGreen;
-            this.General_Secretary.Location = new System.Drawing.Point(289, 28);
+            this.General_Secretary.Location = new System.Drawing.Point(541, 21);
             this.General_Secretary.Name = "General_Secretary";
-            this.General_Secretary.Size = new System.Drawing.Size(138, 20);
+            this.General_Secretary.Size = new System.Drawing.Size(226, 31);
             this.General_Secretary.TabIndex = 59;
             this.General_Secretary.Text = "General Secretary";
+            this.General_Secretary.Click += new System.EventHandler(this.General_Secretary_Click);
             // 
             // label_VicePresident
             // 
             this.label_VicePresident.AutoSize = true;
-            this.label_VicePresident.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_VicePresident.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_VicePresident.ForeColor = System.Drawing.Color.Indigo;
-            this.label_VicePresident.Location = new System.Drawing.Point(125, 28);
+            this.label_VicePresident.Location = new System.Drawing.Point(260, 21);
             this.label_VicePresident.Name = "label_VicePresident";
-            this.label_VicePresident.Size = new System.Drawing.Size(112, 20);
+            this.label_VicePresident.Size = new System.Drawing.Size(184, 31);
             this.label_VicePresident.TabIndex = 58;
             this.label_VicePresident.Text = "Vice-President";
             this.label_VicePresident.Click += new System.EventHandler(this.label1_Click);
             // 
-            // checkBox_Rubaiot
+            // checkBox_tuhin
             // 
-            this.checkBox_Rubaiot.AutoSize = true;
-            this.checkBox_Rubaiot.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Rubaiot.Location = new System.Drawing.Point(814, 298);
-            this.checkBox_Rubaiot.Name = "checkBox_Rubaiot";
-            this.checkBox_Rubaiot.Size = new System.Drawing.Size(70, 17);
-            this.checkBox_Rubaiot.TabIndex = 57;
-            this.checkBox_Rubaiot.Text = "Rubaiot";
-            this.checkBox_Rubaiot.UseVisualStyleBackColor = true;
-            this.checkBox_Rubaiot.Click += new System.EventHandler(this.on_member);
+            this.checkBox_tuhin.AutoSize = true;
+            this.checkBox_tuhin.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_tuhin.Location = new System.Drawing.Point(864, 385);
+            this.checkBox_tuhin.Name = "checkBox_tuhin";
+            this.checkBox_tuhin.Size = new System.Drawing.Size(102, 35);
+            this.checkBox_tuhin.TabIndex = 47;
+            this.checkBox_tuhin.Text = "Tuhin";
+            this.checkBox_tuhin.UseVisualStyleBackColor = true;
+            this.checkBox_tuhin.CheckedChanged += new System.EventHandler(this.checkBox_nazrul_mem_CheckedChanged);
+            this.checkBox_tuhin.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_roziqul
+            // checkBox_motasim
             // 
-            this.checkBox_roziqul.AutoSize = true;
-            this.checkBox_roziqul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_roziqul.Location = new System.Drawing.Point(814, 266);
-            this.checkBox_roziqul.Name = "checkBox_roziqul";
-            this.checkBox_roziqul.Size = new System.Drawing.Size(68, 17);
-            this.checkBox_roziqul.TabIndex = 56;
-            this.checkBox_roziqul.Text = "Roziqul";
-            this.checkBox_roziqul.UseVisualStyleBackColor = true;
-            this.checkBox_roziqul.Click += new System.EventHandler(this.on_member);
+            this.checkBox_motasim.AutoSize = true;
+            this.checkBox_motasim.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_motasim.Location = new System.Drawing.Point(864, 352);
+            this.checkBox_motasim.Name = "checkBox_motasim";
+            this.checkBox_motasim.Size = new System.Drawing.Size(136, 35);
+            this.checkBox_motasim.TabIndex = 46;
+            this.checkBox_motasim.Text = "Motasim";
+            this.checkBox_motasim.UseVisualStyleBackColor = true;
+            this.checkBox_motasim.CheckedChanged += new System.EventHandler(this.checkBox_motasim_CheckedChanged);
+            this.checkBox_motasim.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_sayeda
+            // checkBox_remme
             // 
-            this.checkBox_sayeda.AutoSize = true;
-            this.checkBox_sayeda.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_sayeda.Location = new System.Drawing.Point(814, 230);
-            this.checkBox_sayeda.Name = "checkBox_sayeda";
-            this.checkBox_sayeda.Size = new System.Drawing.Size(61, 17);
-            this.checkBox_sayeda.TabIndex = 55;
-            this.checkBox_sayeda.Text = "Sayda";
-            this.checkBox_sayeda.UseVisualStyleBackColor = true;
-            this.checkBox_sayeda.Click += new System.EventHandler(this.on_member);
+            this.checkBox_remme.AutoSize = true;
+            this.checkBox_remme.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_remme.Location = new System.Drawing.Point(864, 317);
+            this.checkBox_remme.Name = "checkBox_remme";
+            this.checkBox_remme.Size = new System.Drawing.Size(121, 35);
+            this.checkBox_remme.TabIndex = 45;
+            this.checkBox_remme.Text = "Remme";
+            this.checkBox_remme.UseVisualStyleBackColor = true;
+            this.checkBox_remme.CheckedChanged += new System.EventHandler(this.checkBox_remme_CheckedChanged);
+            this.checkBox_remme.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_salma
+            // checkBox_molla_shafiqur
             // 
-            this.checkBox_salma.AutoSize = true;
-            this.checkBox_salma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_salma.Location = new System.Drawing.Point(814, 197);
-            this.checkBox_salma.Name = "checkBox_salma";
-            this.checkBox_salma.Size = new System.Drawing.Size(60, 17);
-            this.checkBox_salma.TabIndex = 54;
-            this.checkBox_salma.Text = "Salma";
-            this.checkBox_salma.UseVisualStyleBackColor = true;
-            this.checkBox_salma.Click += new System.EventHandler(this.on_member);
+            this.checkBox_molla_shafiqur.AutoSize = true;
+            this.checkBox_molla_shafiqur.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_molla_shafiqur.Location = new System.Drawing.Point(864, 285);
+            this.checkBox_molla_shafiqur.Name = "checkBox_molla_shafiqur";
+            this.checkBox_molla_shafiqur.Size = new System.Drawing.Size(212, 35);
+            this.checkBox_molla_shafiqur.TabIndex = 44;
+            this.checkBox_molla_shafiqur.Text = "Molla Shafiqur";
+            this.checkBox_molla_shafiqur.UseVisualStyleBackColor = true;
+            this.checkBox_molla_shafiqur.CheckedChanged += new System.EventHandler(this.checkBox_molla_shafiqur_CheckedChanged);
+            this.checkBox_molla_shafiqur.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_saikat
+            // checkBox_Shariful
             // 
-            this.checkBox_saikat.AutoSize = true;
-            this.checkBox_saikat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_saikat.Location = new System.Drawing.Point(814, 162);
-            this.checkBox_saikat.Name = "checkBox_saikat";
-            this.checkBox_saikat.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_saikat.TabIndex = 53;
-            this.checkBox_saikat.Text = "Saikat";
-            this.checkBox_saikat.UseVisualStyleBackColor = true;
-            this.checkBox_saikat.Click += new System.EventHandler(this.on_member);
+            this.checkBox_Shariful.AutoSize = true;
+            this.checkBox_Shariful.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Shariful.Location = new System.Drawing.Point(864, 249);
+            this.checkBox_Shariful.Name = "checkBox_Shariful";
+            this.checkBox_Shariful.Size = new System.Drawing.Size(129, 35);
+            this.checkBox_Shariful.TabIndex = 43;
+            this.checkBox_Shariful.Text = "Shariful";
+            this.checkBox_Shariful.UseVisualStyleBackColor = true;
+            this.checkBox_Shariful.CheckedChanged += new System.EventHandler(this.checkBox_Shariful_CheckedChanged);
+            this.checkBox_Shariful.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_rumana
+            // checkBox_Nazrul
             // 
-            this.checkBox_rumana.AutoSize = true;
-            this.checkBox_rumana.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rumana.Location = new System.Drawing.Point(814, 130);
-            this.checkBox_rumana.Name = "checkBox_rumana";
-            this.checkBox_rumana.Size = new System.Drawing.Size(72, 17);
-            this.checkBox_rumana.TabIndex = 52;
-            this.checkBox_rumana.Text = "Rumana";
-            this.checkBox_rumana.UseVisualStyleBackColor = true;
-            this.checkBox_rumana.Click += new System.EventHandler(this.on_member);
+            this.checkBox_Nazrul.AutoSize = true;
+            this.checkBox_Nazrul.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Nazrul.Location = new System.Drawing.Point(864, 216);
+            this.checkBox_Nazrul.Name = "checkBox_Nazrul";
+            this.checkBox_Nazrul.Size = new System.Drawing.Size(113, 35);
+            this.checkBox_Nazrul.TabIndex = 42;
+            this.checkBox_Nazrul.Text = "Nazrul";
+            this.checkBox_Nazrul.UseVisualStyleBackColor = true;
+            this.checkBox_Nazrul.CheckedChanged += new System.EventHandler(this.checkBox_Nazmus_CheckedChanged);
+            this.checkBox_Nazrul.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_shajalal
+            // checkBox_salauddin
             // 
-            this.checkBox_shajalal.AutoSize = true;
-            this.checkBox_shajalal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_shajalal.Location = new System.Drawing.Point(814, 94);
-            this.checkBox_shajalal.Name = "checkBox_shajalal";
-            this.checkBox_shajalal.Size = new System.Drawing.Size(78, 17);
-            this.checkBox_shajalal.TabIndex = 51;
-            this.checkBox_shajalal.Text = "Shahjalal";
-            this.checkBox_shajalal.UseVisualStyleBackColor = true;
-            this.checkBox_shajalal.Click += new System.EventHandler(this.on_member);
+            this.checkBox_salauddin.AutoSize = true;
+            this.checkBox_salauddin.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_salauddin.Location = new System.Drawing.Point(664, 385);
+            this.checkBox_salauddin.Name = "checkBox_salauddin";
+            this.checkBox_salauddin.Size = new System.Drawing.Size(152, 35);
+            this.checkBox_salauddin.TabIndex = 39;
+            this.checkBox_salauddin.Text = "Salauddin";
+            this.checkBox_salauddin.UseVisualStyleBackColor = true;
+            this.checkBox_salauddin.CheckedChanged += new System.EventHandler(this.checkBox_howlader_CheckedChanged);
+            this.checkBox_salauddin.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_rakib
+            // checkBox_mahadi
             // 
-            this.checkBox_rakib.AutoSize = true;
-            this.checkBox_rakib.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rakib.Location = new System.Drawing.Point(814, 61);
-            this.checkBox_rakib.Name = "checkBox_rakib";
-            this.checkBox_rakib.Size = new System.Drawing.Size(59, 17);
-            this.checkBox_rakib.TabIndex = 50;
-            this.checkBox_rakib.Text = "Rakib";
-            this.checkBox_rakib.UseVisualStyleBackColor = true;
-            this.checkBox_rakib.Click += new System.EventHandler(this.on_member);
+            this.checkBox_mahadi.AutoSize = true;
+            this.checkBox_mahadi.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_mahadi.Location = new System.Drawing.Point(664, 352);
+            this.checkBox_mahadi.Name = "checkBox_mahadi";
+            this.checkBox_mahadi.Size = new System.Drawing.Size(124, 35);
+            this.checkBox_mahadi.TabIndex = 38;
+            this.checkBox_mahadi.Text = "Mahadi";
+            this.checkBox_mahadi.UseVisualStyleBackColor = true;
+            this.checkBox_mahadi.CheckedChanged += new System.EventHandler(this.checkBox_mahadi_CheckedChanged);
+            this.checkBox_mahadi.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_hosna_ara
+            // checkBox_serajul
             // 
-            this.checkBox_hosna_ara.AutoSize = true;
-            this.checkBox_hosna_ara.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_hosna_ara.Location = new System.Drawing.Point(692, 298);
-            this.checkBox_hosna_ara.Name = "checkBox_hosna_ara";
-            this.checkBox_hosna_ara.Size = new System.Drawing.Size(85, 17);
-            this.checkBox_hosna_ara.TabIndex = 49;
-            this.checkBox_hosna_ara.Text = "Hosna Ara";
-            this.checkBox_hosna_ara.UseVisualStyleBackColor = true;
-            this.checkBox_hosna_ara.Click += new System.EventHandler(this.on_member);
+            this.checkBox_serajul.AutoSize = true;
+            this.checkBox_serajul.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_serajul.Location = new System.Drawing.Point(664, 317);
+            this.checkBox_serajul.Name = "checkBox_serajul";
+            this.checkBox_serajul.Size = new System.Drawing.Size(118, 35);
+            this.checkBox_serajul.TabIndex = 37;
+            this.checkBox_serajul.Text = "Serajul";
+            this.checkBox_serajul.UseVisualStyleBackColor = true;
+            this.checkBox_serajul.CheckedChanged += new System.EventHandler(this.checkBox_serajul_CheckedChanged);
+            this.checkBox_serajul.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_shafiqur
+            // checkBox_Shamim
             // 
-            this.checkBox_shafiqur.AutoSize = true;
-            this.checkBox_shafiqur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_shafiqur.Location = new System.Drawing.Point(692, 266);
-            this.checkBox_shafiqur.Name = "checkBox_shafiqur";
-            this.checkBox_shafiqur.Size = new System.Drawing.Size(73, 17);
-            this.checkBox_shafiqur.TabIndex = 48;
-            this.checkBox_shafiqur.Text = "Shafiqur";
-            this.checkBox_shafiqur.UseVisualStyleBackColor = true;
-            this.checkBox_shafiqur.CheckedChanged += new System.EventHandler(this.checkBox_shafiqur_CheckedChanged);
-            this.checkBox_shafiqur.Click += new System.EventHandler(this.on_member);
+            this.checkBox_Shamim.AutoSize = true;
+            this.checkBox_Shamim.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Shamim.Location = new System.Drawing.Point(664, 285);
+            this.checkBox_Shamim.Name = "checkBox_Shamim";
+            this.checkBox_Shamim.Size = new System.Drawing.Size(129, 35);
+            this.checkBox_Shamim.TabIndex = 36;
+            this.checkBox_Shamim.Text = "Shamim";
+            this.checkBox_Shamim.UseVisualStyleBackColor = true;
+            this.checkBox_Shamim.CheckedChanged += new System.EventHandler(this.checkBox_Shamim_CheckedChanged);
+            this.checkBox_Shamim.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_nazrul_mem
+            // checkBox_manir
             // 
-            this.checkBox_nazrul_mem.AutoSize = true;
-            this.checkBox_nazrul_mem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_nazrul_mem.Location = new System.Drawing.Point(692, 230);
-            this.checkBox_nazrul_mem.Name = "checkBox_nazrul_mem";
-            this.checkBox_nazrul_mem.Size = new System.Drawing.Size(78, 17);
-            this.checkBox_nazrul_mem.TabIndex = 47;
-            this.checkBox_nazrul_mem.Text = "Nazrul_m";
-            this.checkBox_nazrul_mem.UseVisualStyleBackColor = true;
-            this.checkBox_nazrul_mem.CheckedChanged += new System.EventHandler(this.checkBox_nazrul_mem_CheckedChanged);
-            this.checkBox_nazrul_mem.Click += new System.EventHandler(this.on_member);
+            this.checkBox_manir.AutoSize = true;
+            this.checkBox_manir.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_manir.Location = new System.Drawing.Point(664, 249);
+            this.checkBox_manir.Name = "checkBox_manir";
+            this.checkBox_manir.Size = new System.Drawing.Size(107, 35);
+            this.checkBox_manir.TabIndex = 35;
+            this.checkBox_manir.Text = "Manir";
+            this.checkBox_manir.UseVisualStyleBackColor = true;
+            this.checkBox_manir.CheckedChanged += new System.EventHandler(this.checkBox_manir_CheckedChanged);
+            this.checkBox_manir.Click += new System.EventHandler(this.on_member);
             // 
-            // checkBox_mostafa
+            // checkBox_Arif
             // 
-            this.checkBox_mostafa.AutoSize = true;
-            this.checkBox_mostafa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mostafa.Location = new System.Drawing.Point(692, 197);
-            this.checkBox_mostafa.Name = "checkBox_mostafa";
-            this.checkBox_mostafa.Size = new System.Drawing.Size(71, 17);
-            this.checkBox_mostafa.TabIndex = 46;
-            this.checkBox_mostafa.Text = "Mostafa";
-            this.checkBox_mostafa.UseVisualStyleBackColor = true;
-            this.checkBox_mostafa.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_hefzur
-            // 
-            this.checkBox_hefzur.AutoSize = true;
-            this.checkBox_hefzur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_hefzur.Location = new System.Drawing.Point(692, 162);
-            this.checkBox_hefzur.Name = "checkBox_hefzur";
-            this.checkBox_hefzur.Size = new System.Drawing.Size(63, 17);
-            this.checkBox_hefzur.TabIndex = 45;
-            this.checkBox_hefzur.Text = "Hefzur";
-            this.checkBox_hefzur.UseVisualStyleBackColor = true;
-            this.checkBox_hefzur.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_rejaul
-            // 
-            this.checkBox_rejaul.AutoSize = true;
-            this.checkBox_rejaul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rejaul.Location = new System.Drawing.Point(692, 130);
-            this.checkBox_rejaul.Name = "checkBox_rejaul";
-            this.checkBox_rejaul.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_rejaul.TabIndex = 44;
-            this.checkBox_rejaul.Text = "Rejaul";
-            this.checkBox_rejaul.UseVisualStyleBackColor = true;
-            this.checkBox_rejaul.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_Raihan
-            // 
-            this.checkBox_Raihan.AutoSize = true;
-            this.checkBox_Raihan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Raihan.Location = new System.Drawing.Point(692, 94);
-            this.checkBox_Raihan.Name = "checkBox_Raihan";
-            this.checkBox_Raihan.Size = new System.Drawing.Size(66, 17);
-            this.checkBox_Raihan.TabIndex = 43;
-            this.checkBox_Raihan.Text = "Raihan";
-            this.checkBox_Raihan.UseVisualStyleBackColor = true;
-            this.checkBox_Raihan.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_Nazmus
-            // 
-            this.checkBox_Nazmus.AutoSize = true;
-            this.checkBox_Nazmus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Nazmus.Location = new System.Drawing.Point(692, 61);
-            this.checkBox_Nazmus.Name = "checkBox_Nazmus";
-            this.checkBox_Nazmus.Size = new System.Drawing.Size(70, 17);
-            this.checkBox_Nazmus.TabIndex = 42;
-            this.checkBox_Nazmus.Text = "Nazmus";
-            this.checkBox_Nazmus.UseVisualStyleBackColor = true;
-            this.checkBox_Nazmus.CheckedChanged += new System.EventHandler(this.checkBox_Nazmus_CheckedChanged);
-            this.checkBox_Nazmus.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_mizanur
-            // 
-            this.checkBox_mizanur.AutoSize = true;
-            this.checkBox_mizanur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mizanur.Location = new System.Drawing.Point(556, 298);
-            this.checkBox_mizanur.Name = "checkBox_mizanur";
-            this.checkBox_mizanur.Size = new System.Drawing.Size(70, 17);
-            this.checkBox_mizanur.TabIndex = 41;
-            this.checkBox_mizanur.Text = "Mizanur";
-            this.checkBox_mizanur.UseVisualStyleBackColor = true;
-            this.checkBox_mizanur.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_Maniruzzaman
-            // 
-            this.checkBox_Maniruzzaman.AutoSize = true;
-            this.checkBox_Maniruzzaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Maniruzzaman.Location = new System.Drawing.Point(556, 266);
-            this.checkBox_Maniruzzaman.Name = "checkBox_Maniruzzaman";
-            this.checkBox_Maniruzzaman.Size = new System.Drawing.Size(106, 17);
-            this.checkBox_Maniruzzaman.TabIndex = 40;
-            this.checkBox_Maniruzzaman.Text = "Maniruzzaman";
-            this.checkBox_Maniruzzaman.UseVisualStyleBackColor = true;
-            this.checkBox_Maniruzzaman.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_howlader
-            // 
-            this.checkBox_howlader.AutoSize = true;
-            this.checkBox_howlader.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_howlader.Location = new System.Drawing.Point(556, 230);
-            this.checkBox_howlader.Name = "checkBox_howlader";
-            this.checkBox_howlader.Size = new System.Drawing.Size(79, 17);
-            this.checkBox_howlader.TabIndex = 39;
-            this.checkBox_howlader.Text = "Howlader";
-            this.checkBox_howlader.UseVisualStyleBackColor = true;
-            this.checkBox_howlader.CheckedChanged += new System.EventHandler(this.checkBox_howlader_CheckedChanged);
-            this.checkBox_howlader.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_firoz
-            // 
-            this.checkBox_firoz.AutoSize = true;
-            this.checkBox_firoz.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_firoz.Location = new System.Drawing.Point(556, 197);
-            this.checkBox_firoz.Name = "checkBox_firoz";
-            this.checkBox_firoz.Size = new System.Drawing.Size(53, 17);
-            this.checkBox_firoz.TabIndex = 38;
-            this.checkBox_firoz.Text = "Firoz";
-            this.checkBox_firoz.UseVisualStyleBackColor = true;
-            this.checkBox_firoz.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_anisuzzaman
-            // 
-            this.checkBox_anisuzzaman.AutoSize = true;
-            this.checkBox_anisuzzaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_anisuzzaman.Location = new System.Drawing.Point(556, 162);
-            this.checkBox_anisuzzaman.Name = "checkBox_anisuzzaman";
-            this.checkBox_anisuzzaman.Size = new System.Drawing.Size(99, 17);
-            this.checkBox_anisuzzaman.TabIndex = 37;
-            this.checkBox_anisuzzaman.Text = "Anisuzzaman";
-            this.checkBox_anisuzzaman.UseVisualStyleBackColor = true;
-            this.checkBox_anisuzzaman.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_joyanta
-            // 
-            this.checkBox_joyanta.AutoSize = true;
-            this.checkBox_joyanta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_joyanta.Location = new System.Drawing.Point(556, 130);
-            this.checkBox_joyanta.Name = "checkBox_joyanta";
-            this.checkBox_joyanta.Size = new System.Drawing.Size(70, 17);
-            this.checkBox_joyanta.TabIndex = 36;
-            this.checkBox_joyanta.Text = "Joyanta";
-            this.checkBox_joyanta.UseVisualStyleBackColor = true;
-            this.checkBox_joyanta.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_Azad
-            // 
-            this.checkBox_Azad.AutoSize = true;
-            this.checkBox_Azad.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Azad.Location = new System.Drawing.Point(556, 94);
-            this.checkBox_Azad.Name = "checkBox_Azad";
-            this.checkBox_Azad.Size = new System.Drawing.Size(54, 17);
-            this.checkBox_Azad.TabIndex = 35;
-            this.checkBox_Azad.Text = "Azad";
-            this.checkBox_Azad.UseVisualStyleBackColor = true;
-            this.checkBox_Azad.Click += new System.EventHandler(this.on_member);
-            // 
-            // checkBox_Harun
-            // 
-            this.checkBox_Harun.AutoSize = true;
-            this.checkBox_Harun.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Harun.Location = new System.Drawing.Point(556, 61);
-            this.checkBox_Harun.Name = "checkBox_Harun";
-            this.checkBox_Harun.Size = new System.Drawing.Size(60, 17);
-            this.checkBox_Harun.TabIndex = 34;
-            this.checkBox_Harun.Text = "Harun";
-            this.checkBox_Harun.UseVisualStyleBackColor = true;
-            this.checkBox_Harun.Click += new System.EventHandler(this.on_member);
+            this.checkBox_Arif.AutoSize = true;
+            this.checkBox_Arif.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Arif.Location = new System.Drawing.Point(664, 216);
+            this.checkBox_Arif.Name = "checkBox_Arif";
+            this.checkBox_Arif.Size = new System.Drawing.Size(81, 35);
+            this.checkBox_Arif.TabIndex = 34;
+            this.checkBox_Arif.Text = "Arif";
+            this.checkBox_Arif.UseVisualStyleBackColor = true;
+            this.checkBox_Arif.CheckedChanged += new System.EventHandler(this.checkBox_Arif_CheckedChanged);
+            this.checkBox_Arif.Click += new System.EventHandler(this.on_member);
             // 
             // label_Member
             // 
             this.label_Member.AutoSize = true;
-            this.label_Member.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Member.Location = new System.Drawing.Point(552, 28);
+            this.label_Member.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Member.Location = new System.Drawing.Point(659, 170);
             this.label_Member.Name = "label_Member";
-            this.label_Member.Size = new System.Drawing.Size(67, 20);
+            this.label_Member.Size = new System.Drawing.Size(112, 31);
             this.label_Member.TabIndex = 33;
             this.label_Member.Text = "Member";
+            this.label_Member.Click += new System.EventHandler(this.label_Member_Click);
             // 
-            // checkBox_Sabbir
+            // checkBox_sarif_mohammad
             // 
-            this.checkBox_Sabbir.AutoSize = true;
-            this.checkBox_Sabbir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Sabbir.ForeColor = System.Drawing.Color.Brown;
-            this.checkBox_Sabbir.Location = new System.Drawing.Point(427, 162);
-            this.checkBox_Sabbir.Name = "checkBox_Sabbir";
-            this.checkBox_Sabbir.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_Sabbir.TabIndex = 32;
-            this.checkBox_Sabbir.Text = "Sabbir";
-            this.checkBox_Sabbir.UseVisualStyleBackColor = true;
-            this.checkBox_Sabbir.Click += new System.EventHandler(this.On_Joint_Secretary);
+            this.checkBox_sarif_mohammad.AutoSize = true;
+            this.checkBox_sarif_mohammad.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_sarif_mohammad.ForeColor = System.Drawing.Color.Brown;
+            this.checkBox_sarif_mohammad.Location = new System.Drawing.Point(825, 88);
+            this.checkBox_sarif_mohammad.Name = "checkBox_sarif_mohammad";
+            this.checkBox_sarif_mohammad.Size = new System.Drawing.Size(239, 35);
+            this.checkBox_sarif_mohammad.TabIndex = 30;
+            this.checkBox_sarif_mohammad.Text = "Sarif Mohammad";
+            this.checkBox_sarif_mohammad.UseVisualStyleBackColor = true;
+            this.checkBox_sarif_mohammad.CheckedChanged += new System.EventHandler(this.checkBox_sarif_mohammad_CheckedChanged);
+            this.checkBox_sarif_mohammad.Click += new System.EventHandler(this.On_Joint_Secretary);
             // 
-            // checkBox_Sadiqul
+            // checkBox_asish_kumar
             // 
-            this.checkBox_Sadiqul.AutoSize = true;
-            this.checkBox_Sadiqul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Sadiqul.ForeColor = System.Drawing.Color.Brown;
-            this.checkBox_Sadiqul.Location = new System.Drawing.Point(427, 130);
-            this.checkBox_Sadiqul.Name = "checkBox_Sadiqul";
-            this.checkBox_Sadiqul.Size = new System.Drawing.Size(68, 17);
-            this.checkBox_Sadiqul.TabIndex = 31;
-            this.checkBox_Sadiqul.Text = "Sadiqul";
-            this.checkBox_Sadiqul.UseVisualStyleBackColor = true;
-            this.checkBox_Sadiqul.Click += new System.EventHandler(this.On_Joint_Secretary);
+            this.checkBox_asish_kumar.AutoSize = true;
+            this.checkBox_asish_kumar.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_asish_kumar.ForeColor = System.Drawing.Color.Brown;
+            this.checkBox_asish_kumar.Location = new System.Drawing.Point(825, 55);
+            this.checkBox_asish_kumar.Name = "checkBox_asish_kumar";
+            this.checkBox_asish_kumar.Size = new System.Drawing.Size(188, 35);
+            this.checkBox_asish_kumar.TabIndex = 29;
+            this.checkBox_asish_kumar.Text = "Asish Kumar";
+            this.checkBox_asish_kumar.UseVisualStyleBackColor = true;
+            this.checkBox_asish_kumar.CheckedChanged += new System.EventHandler(this.checkBox_asish_kumar_CheckedChanged);
+            this.checkBox_asish_kumar.Click += new System.EventHandler(this.On_Joint_Secretary);
             // 
-            // checkBox_nazrul_jointS
+            // checkBox_zahid
             // 
-            this.checkBox_nazrul_jointS.AutoSize = true;
-            this.checkBox_nazrul_jointS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_nazrul_jointS.ForeColor = System.Drawing.Color.Brown;
-            this.checkBox_nazrul_jointS.Location = new System.Drawing.Point(427, 94);
-            this.checkBox_nazrul_jointS.Name = "checkBox_nazrul_jointS";
-            this.checkBox_nazrul_jointS.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_nazrul_jointS.TabIndex = 30;
-            this.checkBox_nazrul_jointS.Text = "Nazrul";
-            this.checkBox_nazrul_jointS.UseVisualStyleBackColor = true;
-            this.checkBox_nazrul_jointS.Click += new System.EventHandler(this.On_Joint_Secretary);
+            this.checkBox_zahid.AutoSize = true;
+            this.checkBox_zahid.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_zahid.ForeColor = System.Drawing.Color.Goldenrod;
+            this.checkBox_zahid.Location = new System.Drawing.Point(463, 356);
+            this.checkBox_zahid.Name = "checkBox_zahid";
+            this.checkBox_zahid.Size = new System.Drawing.Size(101, 35);
+            this.checkBox_zahid.TabIndex = 26;
+            this.checkBox_zahid.Text = "Zahid";
+            this.checkBox_zahid.UseVisualStyleBackColor = true;
+            this.checkBox_zahid.CheckedChanged += new System.EventHandler(this.checkBox_zahid_CheckedChanged);
+            this.checkBox_zahid.Click += new System.EventHandler(this.on_publicatio);
             // 
-            // checkBox_nabiul
+            // checkBox_Nihar
             // 
-            this.checkBox_nabiul.AutoSize = true;
-            this.checkBox_nabiul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_nabiul.ForeColor = System.Drawing.Color.Brown;
-            this.checkBox_nabiul.Location = new System.Drawing.Point(427, 61);
-            this.checkBox_nabiul.Name = "checkBox_nabiul";
-            this.checkBox_nabiul.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_nabiul.TabIndex = 29;
-            this.checkBox_nabiul.Text = "Nabiul";
-            this.checkBox_nabiul.UseVisualStyleBackColor = true;
-            this.checkBox_nabiul.Click += new System.EventHandler(this.On_Joint_Secretary);
+            this.checkBox_Nihar.AutoSize = true;
+            this.checkBox_Nihar.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Nihar.ForeColor = System.Drawing.Color.Goldenrod;
+            this.checkBox_Nihar.Location = new System.Drawing.Point(463, 320);
+            this.checkBox_Nihar.Name = "checkBox_Nihar";
+            this.checkBox_Nihar.Size = new System.Drawing.Size(102, 35);
+            this.checkBox_Nihar.TabIndex = 25;
+            this.checkBox_Nihar.Text = "Nihar";
+            this.checkBox_Nihar.UseVisualStyleBackColor = true;
+            this.checkBox_Nihar.CheckedChanged += new System.EventHandler(this.checkBox_Nihar_CheckedChanged);
+            this.checkBox_Nihar.Click += new System.EventHandler(this.on_publicatio);
             // 
-            // checkBox_Serajul
+            // checkBox_sarwar_jahan
             // 
-            this.checkBox_Serajul.AutoSize = true;
-            this.checkBox_Serajul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Serajul.ForeColor = System.Drawing.Color.Goldenrod;
-            this.checkBox_Serajul.Location = new System.Drawing.Point(293, 325);
-            this.checkBox_Serajul.Name = "checkBox_Serajul";
-            this.checkBox_Serajul.Size = new System.Drawing.Size(65, 17);
-            this.checkBox_Serajul.TabIndex = 28;
-            this.checkBox_Serajul.Text = "Serajul";
-            this.checkBox_Serajul.UseVisualStyleBackColor = true;
-            this.checkBox_Serajul.Click += new System.EventHandler(this.on_publicatio);
+            this.checkBox_sarwar_jahan.AutoSize = true;
+            this.checkBox_sarwar_jahan.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_sarwar_jahan.ForeColor = System.Drawing.Color.ForestGreen;
+            this.checkBox_sarwar_jahan.Location = new System.Drawing.Point(547, 88);
+            this.checkBox_sarwar_jahan.Name = "checkBox_sarwar_jahan";
+            this.checkBox_sarwar_jahan.Size = new System.Drawing.Size(198, 35);
+            this.checkBox_sarwar_jahan.TabIndex = 22;
+            this.checkBox_sarwar_jahan.Text = "Sarwar Jahan";
+            this.checkBox_sarwar_jahan.UseVisualStyleBackColor = true;
+            this.checkBox_sarwar_jahan.CheckedChanged += new System.EventHandler(this.checkBox_sarwar_jahan_CheckedChanged);
+            this.checkBox_sarwar_jahan.Click += new System.EventHandler(this.OnGeral_Secretary);
             // 
-            // checkBox_Protab
+            // checkBox_nazmus_sadath
             // 
-            this.checkBox_Protab.AutoSize = true;
-            this.checkBox_Protab.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Protab.ForeColor = System.Drawing.Color.Goldenrod;
-            this.checkBox_Protab.Location = new System.Drawing.Point(293, 293);
-            this.checkBox_Protab.Name = "checkBox_Protab";
-            this.checkBox_Protab.Size = new System.Drawing.Size(63, 17);
-            this.checkBox_Protab.TabIndex = 27;
-            this.checkBox_Protab.Text = "Protab";
-            this.checkBox_Protab.UseVisualStyleBackColor = true;
-            this.checkBox_Protab.Click += new System.EventHandler(this.on_publicatio);
+            this.checkBox_nazmus_sadath.AutoSize = true;
+            this.checkBox_nazmus_sadath.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_nazmus_sadath.ForeColor = System.Drawing.Color.ForestGreen;
+            this.checkBox_nazmus_sadath.Location = new System.Drawing.Point(547, 55);
+            this.checkBox_nazmus_sadath.Name = "checkBox_nazmus_sadath";
+            this.checkBox_nazmus_sadath.Size = new System.Drawing.Size(215, 35);
+            this.checkBox_nazmus_sadath.TabIndex = 21;
+            this.checkBox_nazmus_sadath.Text = "Nazmus Sadath";
+            this.checkBox_nazmus_sadath.UseVisualStyleBackColor = true;
+            this.checkBox_nazmus_sadath.CheckedChanged += new System.EventHandler(this.checkBox_nazmus_sadath_CheckedChanged);
+            this.checkBox_nazmus_sadath.Click += new System.EventHandler(this.OnGeral_Secretary);
             // 
-            // checkBox_Hasan
+            // checkBox_imran
             // 
-            this.checkBox_Hasan.AutoSize = true;
-            this.checkBox_Hasan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Hasan.ForeColor = System.Drawing.Color.Goldenrod;
-            this.checkBox_Hasan.Location = new System.Drawing.Point(293, 257);
-            this.checkBox_Hasan.Name = "checkBox_Hasan";
-            this.checkBox_Hasan.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_Hasan.TabIndex = 26;
-            this.checkBox_Hasan.Text = "Hasan";
-            this.checkBox_Hasan.UseVisualStyleBackColor = true;
-            this.checkBox_Hasan.Click += new System.EventHandler(this.on_publicatio);
+            this.checkBox_imran.AutoSize = true;
+            this.checkBox_imran.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_imran.ForeColor = System.Drawing.Color.DarkCyan;
+            this.checkBox_imran.Location = new System.Drawing.Point(180, 356);
+            this.checkBox_imran.Name = "checkBox_imran";
+            this.checkBox_imran.Size = new System.Drawing.Size(106, 35);
+            this.checkBox_imran.TabIndex = 18;
+            this.checkBox_imran.Text = "Imran";
+            this.checkBox_imran.UseVisualStyleBackColor = true;
+            this.checkBox_imran.CheckedChanged += new System.EventHandler(this.checkBox_imran_CheckedChanged);
+            this.checkBox_imran.Click += new System.EventHandler(this.On_Social_wal);
             // 
-            // checkBox_Afirul
+            // checkBox_sayda
             // 
-            this.checkBox_Afirul.AutoSize = true;
-            this.checkBox_Afirul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Afirul.ForeColor = System.Drawing.Color.Goldenrod;
-            this.checkBox_Afirul.Location = new System.Drawing.Point(293, 224);
-            this.checkBox_Afirul.Name = "checkBox_Afirul";
-            this.checkBox_Afirul.Size = new System.Drawing.Size(55, 17);
-            this.checkBox_Afirul.TabIndex = 25;
-            this.checkBox_Afirul.Text = "Afirul";
-            this.checkBox_Afirul.UseVisualStyleBackColor = true;
-            this.checkBox_Afirul.Click += new System.EventHandler(this.on_publicatio);
+            this.checkBox_sayda.AutoSize = true;
+            this.checkBox_sayda.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_sayda.ForeColor = System.Drawing.Color.DarkCyan;
+            this.checkBox_sayda.Location = new System.Drawing.Point(180, 322);
+            this.checkBox_sayda.Name = "checkBox_sayda";
+            this.checkBox_sayda.Size = new System.Drawing.Size(104, 35);
+            this.checkBox_sayda.TabIndex = 17;
+            this.checkBox_sayda.Text = "Sayda";
+            this.checkBox_sayda.UseVisualStyleBackColor = true;
+            this.checkBox_sayda.CheckedChanged += new System.EventHandler(this.checkBox_sayda_CheckedChanged);
+            this.checkBox_sayda.Click += new System.EventHandler(this.On_Social_wal);
             // 
-            // checkBox_sarwar
+            // checkBox_hefzur_rahman
             // 
-            this.checkBox_sarwar.AutoSize = true;
-            this.checkBox_sarwar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_sarwar.ForeColor = System.Drawing.Color.ForestGreen;
-            this.checkBox_sarwar.Location = new System.Drawing.Point(293, 162);
-            this.checkBox_sarwar.Name = "checkBox_sarwar";
-            this.checkBox_sarwar.Size = new System.Drawing.Size(65, 17);
-            this.checkBox_sarwar.TabIndex = 24;
-            this.checkBox_sarwar.Text = "Sarwar";
-            this.checkBox_sarwar.UseVisualStyleBackColor = true;
-            this.checkBox_sarwar.Click += new System.EventHandler(this.OnGeral_Secretary);
+            this.checkBox_hefzur_rahman.AutoSize = true;
+            this.checkBox_hefzur_rahman.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_hefzur_rahman.ForeColor = System.Drawing.Color.Indigo;
+            this.checkBox_hefzur_rahman.Location = new System.Drawing.Point(271, 91);
+            this.checkBox_hefzur_rahman.Name = "checkBox_hefzur_rahman";
+            this.checkBox_hefzur_rahman.Size = new System.Drawing.Size(220, 35);
+            this.checkBox_hefzur_rahman.TabIndex = 14;
+            this.checkBox_hefzur_rahman.Text = "Hefzur Rahman";
+            this.checkBox_hefzur_rahman.UseVisualStyleBackColor = true;
+            this.checkBox_hefzur_rahman.CheckedChanged += new System.EventHandler(this.checkBox_hefzur_rahman_CheckedChanged);
+            this.checkBox_hefzur_rahman.Click += new System.EventHandler(this.On_VicePresident);
             // 
-            // checkBox_rubel
+            // checkBox_sarder_safiqul
             // 
-            this.checkBox_rubel.AutoSize = true;
-            this.checkBox_rubel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rubel.ForeColor = System.Drawing.Color.ForestGreen;
-            this.checkBox_rubel.Location = new System.Drawing.Point(293, 130);
-            this.checkBox_rubel.Name = "checkBox_rubel";
-            this.checkBox_rubel.Size = new System.Drawing.Size(59, 17);
-            this.checkBox_rubel.TabIndex = 23;
-            this.checkBox_rubel.Text = "Rubel";
-            this.checkBox_rubel.UseVisualStyleBackColor = true;
-            this.checkBox_rubel.Click += new System.EventHandler(this.OnGeral_Secretary);
-            // 
-            // checkBox_Khashrul
-            // 
-            this.checkBox_Khashrul.AutoSize = true;
-            this.checkBox_Khashrul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Khashrul.ForeColor = System.Drawing.Color.ForestGreen;
-            this.checkBox_Khashrul.Location = new System.Drawing.Point(293, 94);
-            this.checkBox_Khashrul.Name = "checkBox_Khashrul";
-            this.checkBox_Khashrul.Size = new System.Drawing.Size(75, 17);
-            this.checkBox_Khashrul.TabIndex = 22;
-            this.checkBox_Khashrul.Text = "Khashrul";
-            this.checkBox_Khashrul.UseVisualStyleBackColor = true;
-            this.checkBox_Khashrul.Click += new System.EventHandler(this.OnGeral_Secretary);
-            // 
-            // checkBox_mostafizar
-            // 
-            this.checkBox_mostafizar.AutoSize = true;
-            this.checkBox_mostafizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mostafizar.ForeColor = System.Drawing.Color.ForestGreen;
-            this.checkBox_mostafizar.Location = new System.Drawing.Point(293, 61);
-            this.checkBox_mostafizar.Name = "checkBox_mostafizar";
-            this.checkBox_mostafizar.Size = new System.Drawing.Size(84, 17);
-            this.checkBox_mostafizar.TabIndex = 21;
-            this.checkBox_mostafizar.Text = "Mostafizar";
-            this.checkBox_mostafizar.UseVisualStyleBackColor = true;
-            this.checkBox_mostafizar.Click += new System.EventHandler(this.OnGeral_Secretary);
-            // 
-            // checkBox_Shovo
-            // 
-            this.checkBox_Shovo.AutoSize = true;
-            this.checkBox_Shovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Shovo.ForeColor = System.Drawing.Color.DarkCyan;
-            this.checkBox_Shovo.Location = new System.Drawing.Point(151, 326);
-            this.checkBox_Shovo.Name = "checkBox_Shovo";
-            this.checkBox_Shovo.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_Shovo.TabIndex = 20;
-            this.checkBox_Shovo.Text = "Shovo";
-            this.checkBox_Shovo.UseVisualStyleBackColor = true;
-            this.checkBox_Shovo.Click += new System.EventHandler(this.On_Social_wal);
+            this.checkBox_sarder_safiqul.AutoSize = true;
+            this.checkBox_sarder_safiqul.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_sarder_safiqul.ForeColor = System.Drawing.Color.Indigo;
+            this.checkBox_sarder_safiqul.Location = new System.Drawing.Point(269, 58);
+            this.checkBox_sarder_safiqul.Name = "checkBox_sarder_safiqul";
+            this.checkBox_sarder_safiqul.Size = new System.Drawing.Size(204, 35);
+            this.checkBox_sarder_safiqul.TabIndex = 13;
+            this.checkBox_sarder_safiqul.Text = "Sarder Safiqul";
+            this.checkBox_sarder_safiqul.UseVisualStyleBackColor = true;
+            this.checkBox_sarder_safiqul.CheckedChanged += new System.EventHandler(this.checkBox_sarder_safiqul_CheckedChanged);
+            this.checkBox_sarder_safiqul.Click += new System.EventHandler(this.On_VicePresident);
             // 
             // checkBox_Enamul
             // 
             this.checkBox_Enamul.AutoSize = true;
-            this.checkBox_Enamul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Enamul.ForeColor = System.Drawing.Color.DarkCyan;
-            this.checkBox_Enamul.Location = new System.Drawing.Point(151, 294);
+            this.checkBox_Enamul.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Enamul.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.checkBox_Enamul.Location = new System.Drawing.Point(13, 352);
             this.checkBox_Enamul.Name = "checkBox_Enamul";
-            this.checkBox_Enamul.Size = new System.Drawing.Size(67, 17);
-            this.checkBox_Enamul.TabIndex = 19;
+            this.checkBox_Enamul.Size = new System.Drawing.Size(125, 35);
+            this.checkBox_Enamul.TabIndex = 10;
             this.checkBox_Enamul.Text = "Enamul";
             this.checkBox_Enamul.UseVisualStyleBackColor = true;
-            this.checkBox_Enamul.Click += new System.EventHandler(this.On_Social_wal);
+            this.checkBox_Enamul.CheckedChanged += new System.EventHandler(this.checkBox_Enamul_CheckedChanged);
+            this.checkBox_Enamul.Click += new System.EventHandler(this.On_Treasurer);
             // 
-            // checkBox_Atikul
+            // checkBox_Eijaz
             // 
-            this.checkBox_Atikul.AutoSize = true;
-            this.checkBox_Atikul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Atikul.ForeColor = System.Drawing.Color.DarkCyan;
-            this.checkBox_Atikul.Location = new System.Drawing.Point(151, 258);
-            this.checkBox_Atikul.Name = "checkBox_Atikul";
-            this.checkBox_Atikul.Size = new System.Drawing.Size(58, 17);
-            this.checkBox_Atikul.TabIndex = 18;
-            this.checkBox_Atikul.Text = "Atikul";
-            this.checkBox_Atikul.UseVisualStyleBackColor = true;
-            this.checkBox_Atikul.Click += new System.EventHandler(this.On_Social_wal);
-            // 
-            // checkBox_Monjur
-            // 
-            this.checkBox_Monjur.AutoSize = true;
-            this.checkBox_Monjur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Monjur.ForeColor = System.Drawing.Color.DarkCyan;
-            this.checkBox_Monjur.Location = new System.Drawing.Point(151, 224);
-            this.checkBox_Monjur.Name = "checkBox_Monjur";
-            this.checkBox_Monjur.Size = new System.Drawing.Size(64, 17);
-            this.checkBox_Monjur.TabIndex = 17;
-            this.checkBox_Monjur.Text = "Monjur";
-            this.checkBox_Monjur.UseVisualStyleBackColor = true;
-            this.checkBox_Monjur.Click += new System.EventHandler(this.On_Social_wal);
-            // 
-            // checkBox_julfikar
-            // 
-            this.checkBox_julfikar.AutoSize = true;
-            this.checkBox_julfikar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_julfikar.ForeColor = System.Drawing.Color.Indigo;
-            this.checkBox_julfikar.Location = new System.Drawing.Point(151, 162);
-            this.checkBox_julfikar.Name = "checkBox_julfikar";
-            this.checkBox_julfikar.Size = new System.Drawing.Size(64, 17);
-            this.checkBox_julfikar.TabIndex = 16;
-            this.checkBox_julfikar.Text = "Jufikar";
-            this.checkBox_julfikar.UseVisualStyleBackColor = true;
-            this.checkBox_julfikar.Click += new System.EventHandler(this.On_VicePresident);
-            // 
-            // checkBox_safiqul
-            // 
-            this.checkBox_safiqul.AutoSize = true;
-            this.checkBox_safiqul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_safiqul.ForeColor = System.Drawing.Color.Indigo;
-            this.checkBox_safiqul.Location = new System.Drawing.Point(151, 130);
-            this.checkBox_safiqul.Name = "checkBox_safiqul";
-            this.checkBox_safiqul.Size = new System.Drawing.Size(65, 17);
-            this.checkBox_safiqul.TabIndex = 15;
-            this.checkBox_safiqul.Text = "Safiqul";
-            this.checkBox_safiqul.UseVisualStyleBackColor = true;
-            this.checkBox_safiqul.Click += new System.EventHandler(this.On_VicePresident);
-            // 
-            // checkBox_rafiqul
-            // 
-            this.checkBox_rafiqul.AutoSize = true;
-            this.checkBox_rafiqul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rafiqul.ForeColor = System.Drawing.Color.Indigo;
-            this.checkBox_rafiqul.Location = new System.Drawing.Point(151, 94);
-            this.checkBox_rafiqul.Name = "checkBox_rafiqul";
-            this.checkBox_rafiqul.Size = new System.Drawing.Size(66, 17);
-            this.checkBox_rafiqul.TabIndex = 14;
-            this.checkBox_rafiqul.Text = "Rafiqul";
-            this.checkBox_rafiqul.UseVisualStyleBackColor = true;
-            this.checkBox_rafiqul.Click += new System.EventHandler(this.On_VicePresident);
-            // 
-            // checkBox_rakkibu
-            // 
-            this.checkBox_rakkibu.AutoSize = true;
-            this.checkBox_rakkibu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_rakkibu.ForeColor = System.Drawing.Color.Indigo;
-            this.checkBox_rakkibu.Location = new System.Drawing.Point(151, 61);
-            this.checkBox_rakkibu.Name = "checkBox_rakkibu";
-            this.checkBox_rakkibu.Size = new System.Drawing.Size(73, 17);
-            this.checkBox_rakkibu.TabIndex = 13;
-            this.checkBox_rakkibu.Text = "Rakkibu";
-            this.checkBox_rakkibu.UseVisualStyleBackColor = true;
-            this.checkBox_rakkibu.Click += new System.EventHandler(this.On_VicePresident);
-            // 
-            // checkBox_Sarif
-            // 
-            this.checkBox_Sarif.AutoSize = true;
-            this.checkBox_Sarif.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Sarif.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.checkBox_Sarif.Location = new System.Drawing.Point(20, 325);
-            this.checkBox_Sarif.Name = "checkBox_Sarif";
-            this.checkBox_Sarif.Size = new System.Drawing.Size(52, 17);
-            this.checkBox_Sarif.TabIndex = 12;
-            this.checkBox_Sarif.Text = "Sarif";
-            this.checkBox_Sarif.UseVisualStyleBackColor = true;
-            this.checkBox_Sarif.Click += new System.EventHandler(this.On_Treasurer);
-            // 
-            // checkBox_Rabiul
-            // 
-            this.checkBox_Rabiul.AutoSize = true;
-            this.checkBox_Rabiul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Rabiul.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.checkBox_Rabiul.Location = new System.Drawing.Point(20, 293);
-            this.checkBox_Rabiul.Name = "checkBox_Rabiul";
-            this.checkBox_Rabiul.Size = new System.Drawing.Size(62, 17);
-            this.checkBox_Rabiul.TabIndex = 11;
-            this.checkBox_Rabiul.Text = "Rabiul";
-            this.checkBox_Rabiul.UseVisualStyleBackColor = true;
-            this.checkBox_Rabiul.Click += new System.EventHandler(this.On_Treasurer);
-            // 
-            // checkBox_Mustafizur
-            // 
-            this.checkBox_Mustafizur.AutoSize = true;
-            this.checkBox_Mustafizur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Mustafizur.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.checkBox_Mustafizur.Location = new System.Drawing.Point(20, 257);
-            this.checkBox_Mustafizur.Name = "checkBox_Mustafizur";
-            this.checkBox_Mustafizur.Size = new System.Drawing.Size(84, 17);
-            this.checkBox_Mustafizur.TabIndex = 10;
-            this.checkBox_Mustafizur.Text = "Mustafizur";
-            this.checkBox_Mustafizur.UseVisualStyleBackColor = true;
-            this.checkBox_Mustafizur.Click += new System.EventHandler(this.On_Treasurer);
-            // 
-            // checkBox_Asish
-            // 
-            this.checkBox_Asish.AutoSize = true;
-            this.checkBox_Asish.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Asish.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.checkBox_Asish.Location = new System.Drawing.Point(20, 224);
-            this.checkBox_Asish.Name = "checkBox_Asish";
-            this.checkBox_Asish.Size = new System.Drawing.Size(56, 17);
-            this.checkBox_Asish.TabIndex = 9;
-            this.checkBox_Asish.Text = "Asish";
-            this.checkBox_Asish.UseVisualStyleBackColor = true;
-            this.checkBox_Asish.Click += new System.EventHandler(this.On_Treasurer);
+            this.checkBox_Eijaz.AutoSize = true;
+            this.checkBox_Eijaz.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Eijaz.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.checkBox_Eijaz.Location = new System.Drawing.Point(13, 320);
+            this.checkBox_Eijaz.Name = "checkBox_Eijaz";
+            this.checkBox_Eijaz.Size = new System.Drawing.Size(93, 35);
+            this.checkBox_Eijaz.TabIndex = 9;
+            this.checkBox_Eijaz.Text = "Eijaz";
+            this.checkBox_Eijaz.UseVisualStyleBackColor = true;
+            this.checkBox_Eijaz.CheckedChanged += new System.EventHandler(this.checkBox_Eijaz_CheckedChanged);
+            this.checkBox_Eijaz.Click += new System.EventHandler(this.On_Treasurer);
             // 
             // label_President
             // 
             this.label_President.AutoSize = true;
-            this.label_President.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_President.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_President.ForeColor = System.Drawing.Color.Crimson;
-            this.label_President.Location = new System.Drawing.Point(6, 28);
+            this.label_President.Location = new System.Drawing.Point(7, 21);
             this.label_President.Name = "label_President";
-            this.label_President.Size = new System.Drawing.Size(76, 20);
+            this.label_President.Size = new System.Drawing.Size(125, 31);
             this.label_President.TabIndex = 8;
             this.label_President.Text = "President";
+            this.label_President.Click += new System.EventHandler(this.label_President_Click);
             // 
-            // checkBox_mahmudul
+            // checkBox_ashraful_alam
             // 
-            this.checkBox_mahmudul.AutoSize = true;
-            this.checkBox_mahmudul.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_mahmudul.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox_mahmudul.Location = new System.Drawing.Point(20, 162);
-            this.checkBox_mahmudul.Name = "checkBox_mahmudul";
-            this.checkBox_mahmudul.Size = new System.Drawing.Size(83, 17);
-            this.checkBox_mahmudul.TabIndex = 7;
-            this.checkBox_mahmudul.Text = "Mahmudul";
-            this.checkBox_mahmudul.UseVisualStyleBackColor = true;
-            this.checkBox_mahmudul.Click += new System.EventHandler(this.OnPresident);
-            // 
-            // checkBox_saroar
-            // 
-            this.checkBox_saroar.AutoSize = true;
-            this.checkBox_saroar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_saroar.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox_saroar.Location = new System.Drawing.Point(20, 130);
-            this.checkBox_saroar.Name = "checkBox_saroar";
-            this.checkBox_saroar.Size = new System.Drawing.Size(63, 17);
-            this.checkBox_saroar.TabIndex = 6;
-            this.checkBox_saroar.Text = "Saroar";
-            this.checkBox_saroar.UseVisualStyleBackColor = true;
-            this.checkBox_saroar.Click += new System.EventHandler(this.OnPresident);
-            // 
-            // checkBox_matin
-            // 
-            this.checkBox_matin.AutoSize = true;
-            this.checkBox_matin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_matin.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox_matin.Location = new System.Drawing.Point(20, 94);
-            this.checkBox_matin.Name = "checkBox_matin";
-            this.checkBox_matin.Size = new System.Drawing.Size(57, 17);
-            this.checkBox_matin.TabIndex = 5;
-            this.checkBox_matin.Text = "Matin";
-            this.checkBox_matin.UseVisualStyleBackColor = true;
-            this.checkBox_matin.Click += new System.EventHandler(this.OnPresident);
+            this.checkBox_ashraful_alam.AutoSize = true;
+            this.checkBox_ashraful_alam.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_ashraful_alam.ForeColor = System.Drawing.Color.Crimson;
+            this.checkBox_ashraful_alam.Location = new System.Drawing.Point(13, 91);
+            this.checkBox_ashraful_alam.Name = "checkBox_ashraful_alam";
+            this.checkBox_ashraful_alam.Size = new System.Drawing.Size(136, 35);
+            this.checkBox_ashraful_alam.TabIndex = 5;
+            this.checkBox_ashraful_alam.Text = "Ashraful";
+            this.checkBox_ashraful_alam.UseVisualStyleBackColor = true;
+            this.checkBox_ashraful_alam.CheckedChanged += new System.EventHandler(this.checkBox_ashraful_alam_CheckedChanged);
+            this.checkBox_ashraful_alam.Click += new System.EventHandler(this.OnPresident);
             // 
             // checkBox_Ahsanuzzaman
             // 
             this.checkBox_Ahsanuzzaman.AutoSize = true;
-            this.checkBox_Ahsanuzzaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Ahsanuzzaman.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox_Ahsanuzzaman.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox_Ahsanuzzaman.Location = new System.Drawing.Point(20, 61);
+            this.checkBox_Ahsanuzzaman.Location = new System.Drawing.Point(13, 55);
             this.checkBox_Ahsanuzzaman.Name = "checkBox_Ahsanuzzaman";
-            this.checkBox_Ahsanuzzaman.Size = new System.Drawing.Size(110, 17);
+            this.checkBox_Ahsanuzzaman.Size = new System.Drawing.Size(209, 35);
             this.checkBox_Ahsanuzzaman.TabIndex = 4;
             this.checkBox_Ahsanuzzaman.Text = "Ahsanuzzaman";
             this.checkBox_Ahsanuzzaman.UseVisualStyleBackColor = true;
+            this.checkBox_Ahsanuzzaman.CheckedChanged += new System.EventHandler(this.checkBox_Ahsanuzzaman_CheckedChanged);
             this.checkBox_Ahsanuzzaman.Click += new System.EventHandler(this.OnPresident);
             // 
             // tabControl_main
             // 
             this.tabControl_main.Controls.Add(this.tabPage_all);
-            this.tabControl_main.Location = new System.Drawing.Point(1, 1);
+            this.tabControl_main.Location = new System.Drawing.Point(1, 10);
             this.tabControl_main.Name = "tabControl_main";
             this.tabControl_main.SelectedIndex = 0;
-            this.tabControl_main.Size = new System.Drawing.Size(1135, 517);
+            this.tabControl_main.Size = new System.Drawing.Size(1281, 597);
             this.tabControl_main.TabIndex = 0;
+            this.tabControl_main.SelectedIndexChanged += new System.EventHandler(this.tabControl_main_SelectedIndexChanged);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 434);
+            this.ClientSize = new System.Drawing.Size(1309, 636);
             this.Controls.Add(this.tabControl_main);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -1001,59 +655,33 @@
 
         private System.Windows.Forms.TabPage tabPage_all;
         private System.Windows.Forms.TabControl tabControl_main;
-        private System.Windows.Forms.CheckBox checkBox_mahmudul;
-        private System.Windows.Forms.CheckBox checkBox_saroar;
-        private System.Windows.Forms.CheckBox checkBox_matin;
+        private System.Windows.Forms.CheckBox checkBox_ashraful_alam;
         private System.Windows.Forms.CheckBox checkBox_Ahsanuzzaman;
-        private System.Windows.Forms.CheckBox checkBox_Sabbir;
-        private System.Windows.Forms.CheckBox checkBox_Sadiqul;
-        private System.Windows.Forms.CheckBox checkBox_nazrul_jointS;
-        private System.Windows.Forms.CheckBox checkBox_nabiul;
-        private System.Windows.Forms.CheckBox checkBox_Serajul;
-        private System.Windows.Forms.CheckBox checkBox_Protab;
-        private System.Windows.Forms.CheckBox checkBox_Hasan;
-        private System.Windows.Forms.CheckBox checkBox_Afirul;
-        private System.Windows.Forms.CheckBox checkBox_sarwar;
-        private System.Windows.Forms.CheckBox checkBox_rubel;
-        private System.Windows.Forms.CheckBox checkBox_Khashrul;
-        private System.Windows.Forms.CheckBox checkBox_mostafizar;
-        private System.Windows.Forms.CheckBox checkBox_Shovo;
+        private System.Windows.Forms.CheckBox checkBox_sarif_mohammad;
+        private System.Windows.Forms.CheckBox checkBox_asish_kumar;
+        private System.Windows.Forms.CheckBox checkBox_zahid;
+        private System.Windows.Forms.CheckBox checkBox_Nihar;
+        private System.Windows.Forms.CheckBox checkBox_sarwar_jahan;
+        private System.Windows.Forms.CheckBox checkBox_nazmus_sadath;
+        private System.Windows.Forms.CheckBox checkBox_imran;
+        private System.Windows.Forms.CheckBox checkBox_sayda;
+        private System.Windows.Forms.CheckBox checkBox_hefzur_rahman;
+        private System.Windows.Forms.CheckBox checkBox_sarder_safiqul;
         private System.Windows.Forms.CheckBox checkBox_Enamul;
-        private System.Windows.Forms.CheckBox checkBox_Atikul;
-        private System.Windows.Forms.CheckBox checkBox_Monjur;
-        private System.Windows.Forms.CheckBox checkBox_julfikar;
-        private System.Windows.Forms.CheckBox checkBox_safiqul;
-        private System.Windows.Forms.CheckBox checkBox_rafiqul;
-        private System.Windows.Forms.CheckBox checkBox_rakkibu;
-        private System.Windows.Forms.CheckBox checkBox_Sarif;
-        private System.Windows.Forms.CheckBox checkBox_Rabiul;
-        private System.Windows.Forms.CheckBox checkBox_Mustafizur;
-        private System.Windows.Forms.CheckBox checkBox_Asish;
+        private System.Windows.Forms.CheckBox checkBox_Eijaz;
         private System.Windows.Forms.Label label_President;
-        private System.Windows.Forms.CheckBox checkBox_Rubaiot;
-        private System.Windows.Forms.CheckBox checkBox_roziqul;
-        private System.Windows.Forms.CheckBox checkBox_sayeda;
-        private System.Windows.Forms.CheckBox checkBox_salma;
-        private System.Windows.Forms.CheckBox checkBox_saikat;
-        private System.Windows.Forms.CheckBox checkBox_rumana;
-        private System.Windows.Forms.CheckBox checkBox_shajalal;
-        private System.Windows.Forms.CheckBox checkBox_rakib;
-        private System.Windows.Forms.CheckBox checkBox_hosna_ara;
-        private System.Windows.Forms.CheckBox checkBox_shafiqur;
-        private System.Windows.Forms.CheckBox checkBox_nazrul_mem;
-        private System.Windows.Forms.CheckBox checkBox_mostafa;
-        private System.Windows.Forms.CheckBox checkBox_hefzur;
-        private System.Windows.Forms.CheckBox checkBox_rejaul;
-        private System.Windows.Forms.CheckBox checkBox_Raihan;
-        private System.Windows.Forms.CheckBox checkBox_Nazmus;
-        private System.Windows.Forms.CheckBox checkBox_mizanur;
-        private System.Windows.Forms.CheckBox checkBox_Maniruzzaman;
-        private System.Windows.Forms.CheckBox checkBox_howlader;
-        private System.Windows.Forms.CheckBox checkBox_firoz;
-        private System.Windows.Forms.CheckBox checkBox_anisuzzaman;
-        private System.Windows.Forms.CheckBox checkBox_joyanta;
-        private System.Windows.Forms.CheckBox checkBox_Azad;
-        private System.Windows.Forms.CheckBox checkBox_Harun;
+        private System.Windows.Forms.CheckBox checkBox_tuhin;
+        private System.Windows.Forms.CheckBox checkBox_motasim;
+        private System.Windows.Forms.CheckBox checkBox_remme;
+        private System.Windows.Forms.CheckBox checkBox_molla_shafiqur;
+        private System.Windows.Forms.CheckBox checkBox_Shariful;
+        private System.Windows.Forms.CheckBox checkBox_Nazrul;
+        private System.Windows.Forms.CheckBox checkBox_salauddin;
+        private System.Windows.Forms.CheckBox checkBox_mahadi;
+        private System.Windows.Forms.CheckBox checkBox_serajul;
+        private System.Windows.Forms.CheckBox checkBox_Shamim;
+        private System.Windows.Forms.CheckBox checkBox_manir;
+        private System.Windows.Forms.CheckBox checkBox_Arif;
         private System.Windows.Forms.Label label_Member;
         private System.Windows.Forms.Label label_PublicationSec;
         private System.Windows.Forms.Label label_Socialwalfareandcs;
